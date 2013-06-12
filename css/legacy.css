@@ -1,0 +1,233 @@
+body.page-child, body.page-parent {
+  padding-top: 100px;
+}
+
+body {
+  padding-top: 60px;
+}
+
+#topnav {
+  position: relative;
+}
+
+#topnav:after {
+  border-color: #5BB75B transparent;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  bottom: -55px;
+  content: "";
+  display: none;
+  left: -16px;
+  position: absolute;
+  width: 0;
+}
+
+.navbar-inverse {
+  color: #ffffff;
+}
+
+.navbar-inverse .navbar-inner {
+  background-color: #5BB75B !important;
+  background-image: none !important;
+  border-color: #5BB75B !important;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+  box-shadow: none;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav>li>a {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar-inverse .nav>li>a:focus, .navbar-inverse .nav>li>a:hover {
+  background-color: #316B2B;
+}
+
+.navbar-inverse .nav .current-menu-item, .navbar-inverse .nav .current-menu-ancestor {
+  background-color: #316B2B;
+}
+
+.sub-menu-container {
+  background-color: #316B2B;
+  left: 0;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+}
+
+.sub-menu {
+  list-style: none outside none;
+  padding-left: 7em;
+  display: none;
+}
+
+.sub-menu li {
+  float: left;
+}
+
+.sub-menu li>a {
+  padding: 9px 15px;
+  display: block;
+  color: #B7D6B4;
+}
+
+.sub-menu li>a:hover, .sub-menu li>a:focus {
+  color: #ffffff;
+}
+
+.sub-menu .current-menu-item a {
+  color: #ffffff;
+}
+
+.post-categories {
+  list-style: none outside none;
+  margin: 0;
+  display: inline-block;
+}
+
+.post-categories li {
+  float: left;
+  line-height: 9px;
+  padding: 0 5px;
+}
+
+.post-categories li:not(:last-child):after {
+  content: ",";
+}
+
+body {
+  background: rgba(1, 1, 1, .03);
+}
+
+section#content {
+  background: rgba(1, 1, 1, .0);
+}
+
+.feature-container {
+  margin-top: 0;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #CDCDCD;
+  -moz-box-shadow: 3px 3px 4px #EEE;
+  -webkit-box-shadow: 3px 3px 4px #EEE;
+  box-shadow: 3px 3px 4px #EEE; /* For IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')"; /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+  margin-bottom: 24px;
+}
+
+.section-4 {
+  background-color: white !important;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.section-4 * {
+}
+
+.feature-row {
+  padding: 25px;
+  margin-left: 0px;
+  height: 220px;
+}
+
+.feature-row:not(:first-child) {
+  border-top: 1px solid #CDCDCD;
+}
+
+.feature-row div {
+  text-align: center;
+  margin: 0px;
+  width: 445px;
+}
+
+.feature-row img {
+  width: 400px;
+}
+
+.ds-img {
+  border: 1px solid #CDCDCD;
+  border-radius: 5px;
+  -moz-box-shadow: 3px 3px 4px #EEE;
+  -webkit-box-shadow: 3px 3px 4px #EEE;
+  box-shadow: 3px 3px 4px #EEE; /* For IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')"; /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+  margin-bottom: 24px;
+}
+
+.feature-row strong {
+  margin-top: 10%;
+  display: inline-block;
+  font-size: 22px;
+  color: #222;
+  font-weight: bolder;
+  margin-bottom: 12px;
+}
+
+.feature-row p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.signup-div {
+  margin-top: 8px;
+}
+
+.signup-div b {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.signup-div input {
+  font-size: 17px;
+}
+
+.signup-div input[type=text] {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.signup-div input[type=submit] {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+.btn-primary.active, .btn-warning.active, .btn-danger.active, .btn-success.active, .btn-info.active, .btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  *background-color: #0044cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+  color: #ffffff;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+
+.btn-primary:active, .btn-primary.active {
+  background-color: #003399 9;
+}
+
+.free-offer-container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-image: url('http://leaddyno.com/wp-content/uploads/2013/06/marketing_bg.png');
+}
