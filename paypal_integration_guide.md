@@ -8,7 +8,7 @@ layout: guides
 ## Introduction ##
 
 This guide explains how to integrate PayPal one-time purchase and subscription buttons into LeadDyno. The integration
-between PayPal and LeadDyno allows automated tracking of lead source and affiliate compensation for purchases
+between PayPal and LeadDyno allows automated tracking of lead conversion, cancellation and affiliate compensation for purchases
 made via PayPal buttons.
 
 
