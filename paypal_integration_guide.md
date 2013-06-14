@@ -15,8 +15,8 @@ made via PayPal buttons.
 ## Paypal Buttons ##
 
 PayPal buttons are elements you put on your website that allow consumers to purchase your products or services. To
-create the buttons, from the PayPal interface, put your mouse over **Profile** and select **My Selling Tools**. From there,
-select the **Update** button next to **PayPal Buttons** as seen in the image below.
+create the buttons, from the PayPal interface, put your mouse over **Profile** and select **My Selling Tools** from the drop down list.
+From there, select the **Update** link next to **PayPal Buttons** as seen in the image below.
 
 ![PayPal Selling Tools](/img/pp_guide_create_buttons.png)
 
@@ -42,6 +42,9 @@ the Default commission plan defined in LeadDyno.
 
 ![LeadDyno Commission Plan](/img/pp_guide_leaddyno_commission_plan.png)
 
+
+In the example above, affiliates would be compensated $10 starting after the first month for any customers they bring
+to the site that sign up for the $50/month *Gold Plan* forever until the customer cancels their subscription.
 
 After setting all the button parameters needed for your service, click *Create Button*. You will be presented with the
 HTML to place on your website.
