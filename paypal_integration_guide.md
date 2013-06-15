@@ -71,7 +71,7 @@ To enable PayPal integration with LeadDyno, call the function
   LeadDyno.initPaypal();
 {% endhighlight %}
 
-in addition to the standard LeadDyno visit tracking code
+in addition to the standard LeadDyno visit tracking code.
 
 A typical complete installation of LeadDyno with PayPal integration enabled would be to have the following in the header section on
 every page of your site:
