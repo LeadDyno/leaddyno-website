@@ -65,12 +65,13 @@ either a fixed amount or some percentage of the sale.
 
 ## Enable PayPal Integration with LeadDyno ##
 
+The PayPal integration with LeadDyno is done via the [JavaScript API](http://developer.leaddyno.com/js-api.html).
 To enable PayPal integration with LeadDyno, call the function
 {% highlight javascript %}
   LeadDyno.initPaypal();
 {% endhighlight %}
 
-in addition to the other LeadDyno visit tracking code
+in addition to the standard LeadDyno visit tracking code
 
 A typical complete installation of LeadDyno with PayPal integration enabled would be to have the following in the header section on
 every page of your site:
@@ -97,6 +98,4 @@ If the default LeadDyno compensation plan is the desired plan to be used with th
 
 A single line of javascript, enabling the PayPal integration, is enough for LeadDyno to be in the loop on PayPal transactions
 to track conversions, cancellations and affiliate compensation.
-
-
 
