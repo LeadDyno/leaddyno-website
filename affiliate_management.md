@@ -9,11 +9,8 @@ Here's how to setup your **Affiliate Program** in just a few minutes with LeadDy
 
 ####Video Demo: [Affiliate Tracking Software in Minutes with LeadDyno](http://youtu.be/SJkMagcwHBE)
 
-###TODO: Insert Video Here http://www.youtube.com/watch?feature=player_embedded&v=SJkMagcwHBE
-
 <div>
-  <embed width="420" height="345" src='http://www.youtube.com/watch?feature=player_embedded&amp;v=SJkMagcwHBE' type="application/x-shockwave-flash"> 
-  </embed>
+	<iframe width="640" height="360" src="http://www.youtube.com/embed/SJkMagcwHBE?feature=player_embedded" frameborder="0" ></iframe>
 </div>
 
 To set up a new affiliate, [click the **Affiliates** link](https://app.leaddyno.com/affiliates) in the left-hand navigation bar. 
