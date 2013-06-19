@@ -5504,6 +5504,9 @@ footer h2 {
 .newsletter-container img {
   margin-top: 14px;
 }
+.newsletter-container .starter-guide-wrapper {
+  margin-top: 10px;
+}
 .inline-screenshot {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
