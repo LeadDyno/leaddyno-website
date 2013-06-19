@@ -219,7 +219,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 20px;
-  color: #333333;
+  color: #3b3b3b;
   background-color: #ffffff;
 }
 a {
@@ -1417,7 +1417,7 @@ select:focus:invalid:focus {
 }
 .help-block,
 .help-inline {
-  color: #595959;
+  color: #616161;
 }
 .help-block {
   display: block;
@@ -5366,9 +5366,6 @@ a.badge:focus {
 body {
   background: rgba(1, 1, 1, 0.03);
 }
-.navbar {
-  margin-bottom: 24px;
-}
 .navbar .brand {
   font-weight: bold;
 }
@@ -5376,7 +5373,15 @@ body {
   margin-top: -12px;
   margin-bottom: -8px;
 }
+.secondary-nav .navbar-inner {
+  background-color: #419441;
+  background-image: none;
+}
+.secondary-nav ul.nav {
+  margin-left: 152px;
+}
 .homepage-hero {
+  margin-top: 24px;
   background: none repeat scroll 0 0 #ffffff;
   border-bottom: 1px solid #E0E0E0;
   border-top: 1px solid #E0E0E0;
@@ -5420,10 +5425,11 @@ footer h2 {
 .feature-container .feature-row {
   padding: 25px;
   margin-left: 0px;
-  height: 220px;
+  min-height: 200px;
+  border-bottom: 1px solid #eeeeee;
 }
-.feature-container .feature-row:not(:first-child) {
-  border-top: 1px solid #CDCDCD;
+.feature-container .feature-row:first-child {
+  border-top: 1px solid #eeeeee;
 }
 .feature-container .feature-row div {
   text-align: center;
@@ -5467,42 +5473,11 @@ footer h2 {
   -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
-  margin-top: 0;
-  border-radius: 5px;
-  background-color: white;
   border: 1px solid #CDCDCD;
   margin-bottom: 24px;
   padding-top: 14px;
   padding-bottom: 14px;
   background-image: url('http://leaddyno.com/wp-content/uploads/2013/06/marketing_bg.png');
-}
-.newsletter-container .feature-row {
-  padding: 25px;
-  margin-left: 0px;
-  height: 220px;
-}
-.newsletter-container .feature-row:not(:first-child) {
-  border-top: 1px solid #CDCDCD;
-}
-.newsletter-container .feature-row div {
-  text-align: center;
-  margin: 0px;
-  width: 445px;
-}
-.newsletter-container .feature-row img {
-  width: 400px;
-}
-.newsletter-container .feature-row strong {
-  margin-top: 10%;
-  display: inline-block;
-  font-size: 22px;
-  color: #222;
-  font-weight: bolder;
-  margin-bottom: 12px;
-}
-.newsletter-container .feature-row p {
-  font-size: 16px;
-  margin: 0;
 }
 .newsletter-container img {
   margin-top: 14px;
@@ -5552,4 +5527,46 @@ footer h2 {
 .signup-row strong {
   font-size: 24px;
   font-weight: bold;
+}
+.tour-container .tour-content {
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #CDCDCD;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+.tour-container .tour-content h2 {
+  text-align: center;
+}
+.tour-container .tour-content iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.tour-container .tour-content img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #CDCDCD;
+  max-width: 500px;
+}
+.tour-container .tour-content .tour-video-caption {
+  text-align: center;
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-style: italic;
 }

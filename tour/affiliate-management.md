@@ -1,17 +1,33 @@
 ---
-layout: default
+layout: tour
 title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
+nav: tour > affiliate-management
 ---
 
-####New Affiliate Setup
+##Affiliate Management
+
+Affiliates can track their own progress in real-time via their Affiliate Dashboard.  You will provide them with a unique
+link to their dashboard, so that they can monitor their visitors, leads, customers, and payments.
+
+<div>
+	<iframe width="640" height="360" src="http://www.youtube.com/embed/SJkMagcwHBE?feature=player_embedded" frameborder="0">
+	</iframe>
+</div>
+
+<div class="tour-video-caption">
+ <a href="http://youtu.be/SJkMagcwHBE">Affiliate Tracking Software in Minutes with LeadDyno</a>
+</div>
+
+<div class="pagination-centered">
+  <a class="btn btn-primary btn-large" href="https://app.leaddyno.com/signup">
+    <strong>Start Your Free Trial</strong>
+  </a>
+</div>
+
+###New Affiliate Setup
 
 Here's how to setup your **Affiliate Program** in just a few minutes with LeadDyno's industry leading **affiliate tracking software**.
 
-####Video Demo: [Affiliate Tracking Software in Minutes with LeadDyno](http://youtu.be/SJkMagcwHBE)
-
-<div>
-	<iframe width="640" height="360" src="http://www.youtube.com/embed/SJkMagcwHBE?feature=player_embedded" frameborder="0" ></iframe>
-</div>
 
 To set up a new affiliate, [click the **Affiliates** link](https://app.leaddyno.com/affiliates) in the left-hand navigation bar. 
 

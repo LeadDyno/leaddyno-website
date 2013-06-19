@@ -10,10 +10,20 @@ body {
       margin-bottom: -8px;
     }
   }
-  margin-bottom: 24px;
+}
+
+.secondary-nav {
+  .navbar-inner {
+    background-color: rgb(65, 148, 65);;
+    background-image: none;
+  }
+  ul.nav {
+    margin-left: 152px;
+  }
 }
 
 .homepage-hero {
+  margin-top: 24px;
   background: none repeat scroll 0 0 @white;
   border-bottom: 1px solid #E0E0E0;
   border-top: 1px solid #E0E0E0;
@@ -56,10 +66,11 @@ footer {
   .feature-row {
     padding: 25px;
     margin-left: 0px;
-    height: 220px;
-    &:not(:first-child) {
-      border-top: 1px solid #CDCDCD;
-    }
+    min-height: 200px;
+    border-bottom: 1px solid @grayLighter;
+    &:first-child {
+      border-top: 1px solid @grayLighter;
+    };
     div {
       text-align: center;
       margin: 0px;
@@ -103,7 +114,9 @@ footer {
 }
 
 .newsletter-container {
-  .feature-container;
+  .drop-shadow(3px, 3px, 3px, 0.1);
+  border: 1px solid #CDCDCD;
+  margin-bottom: 24px;
   padding-top: 14px;
   padding-bottom: 14px;
   background-image: url('http://leaddyno.com/wp-content/uploads/2013/06/marketing_bg.png');
@@ -155,6 +168,45 @@ footer {
   strong {
     font-size: 24px;
     font-weight: bold;
+  }
+}
+
+.tour-container {
+  .tour-content {
+    h2 {
+      .pagination-centered;
+    }
+    .drop-shadow(3px, 3px, 3px, 0.1);
+    margin-top: 24px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #CDCDCD;
+    padding: 12px;
+    margin-bottom: 24px;
+    iframe {
+      margin-left:auto;
+      margin-right:auto;
+      display: block;
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+    img {
+      .border-radius(5px);
+      .drop-shadow(3px, 3px, 3px, 0.1);
+      margin-left:auto;
+      margin-right:auto;
+      display: block;
+      margin-top: 24px;
+      margin-bottom: 24px;
+      border: 1px solid #CDCDCD;
+      max-width: 500px;
+    }
+    .tour-video-caption {
+      .pagination-centered;
+      padding-bottom: 12px;
+      font-weight: bold;
+      font-style: italic;
+    }
   }
 }
 
