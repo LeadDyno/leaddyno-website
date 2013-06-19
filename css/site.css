@@ -5388,6 +5388,9 @@ body {
   font-size: 44px;
   line-height: 48px;
 }
+.homepage-hero .hero-text-div {
+  margin-top: 50px;
+}
 footer {
   padding-top: 16px;
   background: none repeat scroll 0 0 #383838;
