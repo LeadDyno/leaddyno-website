@@ -6,7 +6,7 @@ module Jekyll
     end
     def render(context)
       nav = context.registers[:page]['nav'] || ''
-      'active' if nav.include? @text
+      'active' if nav.include? @text.chop
     end
   end
   class HideTag < Liquid::Tag
