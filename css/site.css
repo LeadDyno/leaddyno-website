@@ -5528,6 +5528,45 @@ footer h2 {
   font-size: 24px;
   font-weight: bold;
 }
+.markdown-doc-styling {
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #CDCDCD;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+.markdown-doc-styling iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.markdown-doc-styling img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #CDCDCD;
+  max-width: 500px;
+}
+.markdown-doc-styling .tour-video-caption {
+  text-align: center;
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
 .tour-container .tour-content {
   -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
@@ -5565,6 +5604,53 @@ footer h2 {
   max-width: 500px;
 }
 .tour-container .tour-content .tour-video-caption {
+  text-align: center;
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+.guide-container .guide-nav {
+  border-radius: 5px;
+  margin-top: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #CDCDCD;
+  background: #ffffff;
+}
+.guide-container .guide-content {
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #CDCDCD;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+.guide-container .guide-content iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.guide-container .guide-content img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #CDCDCD;
+  max-width: 500px;
+}
+.guide-container .guide-content .tour-video-caption {
   text-align: center;
   padding-bottom: 12px;
   font-weight: bold;

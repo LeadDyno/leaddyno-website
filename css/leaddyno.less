@@ -171,42 +171,60 @@ footer {
   }
 }
 
+.markdown-doc-styling {
+  .drop-shadow(3px, 3px, 3px, 0.1);
+  margin-top: 24px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #CDCDCD;
+  padding: 12px;
+  margin-bottom: 24px;
+  iframe {
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  img {
+    .border-radius(5px);
+    .drop-shadow(3px, 3px, 3px, 0.1);
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #CDCDCD;
+    max-width: 500px;
+  }
+  .tour-video-caption {
+    .pagination-centered;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-style: italic;
+  }
+}
+
 .tour-container {
   .tour-content {
     h2 {
       .pagination-centered;
     }
-    .drop-shadow(3px, 3px, 3px, 0.1);
-    margin-top: 24px;
+    .markdown-doc-styling;
+  }
+}
+
+.guide-container {
+  .guide-nav {
     border-radius: 5px;
-    background-color: white;
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     border: 1px solid #CDCDCD;
-    padding: 12px;
-    margin-bottom: 24px;
-    iframe {
-      margin-left:auto;
-      margin-right:auto;
-      display: block;
-      margin-top: 24px;
-      margin-bottom: 24px;
-    }
-    img {
-      .border-radius(5px);
-      .drop-shadow(3px, 3px, 3px, 0.1);
-      margin-left:auto;
-      margin-right:auto;
-      display: block;
-      margin-top: 24px;
-      margin-bottom: 24px;
-      border: 1px solid #CDCDCD;
-      max-width: 500px;
-    }
-    .tour-video-caption {
-      .pagination-centered;
-      padding-bottom: 12px;
-      font-weight: bold;
-      font-style: italic;
-    }
+    background: @white;
+  }
+  .guide-content {
+    .markdown-doc-styling;
   }
 }
 

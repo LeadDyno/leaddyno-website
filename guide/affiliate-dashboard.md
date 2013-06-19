@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: guide
 title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
+nav: guide > affiliate-dashboard
 ---
+
 
 #Affiliate Dashboard
 

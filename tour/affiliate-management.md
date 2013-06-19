@@ -1,13 +1,12 @@
 ---
 layout: tour
 title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
-nav: tour > affiliate-management
+nav: tour > affiliate-dashboard
 ---
 
 ##Affiliate Management
 
-Affiliates can track their own progress in real-time via their Affiliate Dashboard.  You will provide them with a unique
-link to their dashboard, so that they can monitor their visitors, leads, customers, and payments.
+Affiliates can track their own progress in real-time via their [Affiliate Dashboard](http://leaddyno.com/affiliate-dashboard/).  You will provide them with a unique link to their dashboard, so that they can monitor their visitors, leads, customers, and payments.
 
 <div>
 	<iframe width="640" height="360" src="http://www.youtube.com/embed/SJkMagcwHBE?feature=player_embedded" frameborder="0">
@@ -15,7 +14,7 @@ link to their dashboard, so that they can monitor their visitors, leads, custome
 </div>
 
 <div class="tour-video-caption">
- <a href="http://youtu.be/SJkMagcwHBE">Affiliate Tracking Software in Minutes with LeadDyno</a>
+ <em><a href="http://youtu.be/SJkMagcwHBE">Affiliate Tracking Software in Minutes with LeadDyno</a></em>
 </div>
 
 <div class="pagination-centered">
@@ -24,79 +23,50 @@ link to their dashboard, so that they can monitor their visitors, leads, custome
   </a>
 </div>
 
-###New Affiliate Setup
+###Managing the Affiliate Dashboard
 
-Here's how to setup your **Affiliate Program** in just a few minutes with LeadDyno's industry leading **affiliate tracking software**.
+You can customize the entire look, feel, and content of the **Affiliate Dashboard**, and/or embed it within your own application.
 
+![affiliate_dashboard_welcome](/img/affiliate_dashboard_welcome1_pt2.png)
 
-To set up a new affiliate, [click the **Affiliates** link](https://app.leaddyno.com/affiliates) in the left-hand navigation bar. 
+###Affiliate Link Sharing
 
-![affiliate_management_menu](/img/affiliate_management_menu_ug1.png)
+Affiliates can access their unique referral link below the welcome message in the dashboard. They can also share their link with a single click by clicking the social share button for Email, Twitter, LinkedIn, Google +, and Facebook.
 
-Then, click the **Add New Affiliate** button, located in the upper-right. 
+![affiliate_dashboard_social_content_links](/img/affiliate_dashboard_social_content_links_pt2.png)
 
-![add_new_affiliate_buttom](/img/add_new_affiliate_buttom_ug1.png)
+You can provide the initial promotional copy for each medium via the [Social Content](http://leaddyno.com/affiliate-social-media-marketing/) section.
 
-Enter the email address of your affiliate - this serves as their unique identifier in LeadDyno. You may also enter their name, and their compensation tier, if you have different compensation plans (which you can set up [via the **Comp Plan** option](https://app.leaddyno.com/plans) in the **Affiliates** menu).
+###Additional Promotional Materials
 
-![new_affiliate_popup](/img/new_affiliate_popup_ug1.png)
+Promotional materials for websites – such as banner ads – are located under the **Promo Materials** tab within the **Affiliate Dashboard**. The HTML for each banner already contains their affiliate link, so they can simply copy/paste the HTML directly into their site.
 
-Then click **Create**, and your new affiliate will be setup. LeadDyno will then create two links for you to give them.
+![affiliate_dashboard_promo_materials](/img/affiliate_dashboard_promo_materials_pt1.png)
 
-####Unique Referral Link
+###Affiliate Welcome & Weekly Emails
 
-Affiliates will send traffic your way via their unique referral link, which will track the clicks, leads, and conversions that come from each affiliate.
+Send a customized welcome email to new affiliates as they come onboard. Also, configure a weekly progress email that is sent automatically to update your affiliates on their leads and sales, keeping them actively engaged in the promotion of your product.
 
-![new_affiliate_after_creation](/img/new_affiliate_after_creation_ug1.png)
+Use the dynamic content variables to show your affiliates their statistics for the past week. You can also use these variables to remind them of their affiliate link, and where they can access their [Affiliate Dashboard](http://leaddyno.com/affiliate-dashboard/) for this information in real-time.
 
-Hit Control+C (Command+C on a Mac) to copy this new affiliate link to your clipboard.
+![affiliate_marketing_weekly_email](/img/affiliate_marketing_weekly_email_pt2.png)
 
+[More: Affiliate Email Welcome & Weekly Follow Up](http://leaddyno.com/affiliate-marketing-email-follow-up/)
 
-####Defining Clicks, Leads, and Conversions
+###Pay Affiliate Commissions Quickly and Easily
 
-Here's how we define these terms in LeadDyno:
-* A **Click** is a visitor that clicks from somewhere else on the web to your website. We track the original source of this click (ie. affiliate, pay-per-click ad, blog post)
-* A **Lead** is someone who gives you their email address (ie. signs up for your free newsletter)
-* A **Conversion** is a lead who purchases your product.
+Finally, you can pay your monthly or quarterly affiliate commissions with just a few clicks with our PayPal integration. We put a lot of time into automating the payment process, so that you don’t have to spend time at the end of each month writing individual affiliate checks!
 
-![affiliate_clicks_leads_conv](/img/affiliate_clicks_leads_conv_ug1.jpg)
+![affiliate_commissions_payment_report](/img/affiliate_commissions_payment_report_pt2.png)
 
-For some online businesses, the lead and conversion occur at the same time. For others, the lead is gathered prior to a sales cycle that results in the lead converting. Both approaches are supported by LeadDyno. It's also important to note that LeadDyno tracks every sale back to its original lead source - no matter how much time passes between the conversion and its initial click.
+####More Affiliate & Online Marketing Features
+* [Affiliate Tracking Software Overview](http://leaddyno.com/affiliate-tracking-software/)  - Get your affiliates setup and sending you traffic in minutes.
+* [Social Media Content Sharing](http://leaddyno.com/affiliate-tracking-software/social-media-content-sharing/) – Coordinating affiliate broadcasts via email and social mediums like Facebook and Twitter.
+* [Online Marketing Tracking](http://leaddyno.com/online-marketing-software/pay-per-click-conversion-tracking/) – Track your pay-per-click investments (ie. Google Adwords) alongside your affiliate program.
 
-####Affiliate Dashboard
+<div class="pagination-centered">
+  <a class="btn btn-primary btn-large" href="https://app.leaddyno.com/signup">
+    <strong>Start Your Free Trial</strong>
+  </a>
+</div>
 
-Affiliates can track their own progress in real-time via their affiliate dashboard. You will provide them with a unique link to their dashboard, so that they can monitor their current clicks, leads, and conversions.
-
-![ld_affiliate_dashboard](/img/ld_affiliate_dashboard_ug1.jpg)
-
-####Manage & Create Multiple Referral Links
-
-You can manage an affiliate's links - and provide them with additional referral links - via their affiliate screen. The **Links** tab displays a table with their link statistics to date.
-
-![affiliate_links_table](/img/affiliate_links_table_ug1.png)
-
-Click the **Add New Link** button to create an additional link for the selected affiliate. This can be used to track the results of different marketing campaigns separately, while still crediting payments to the appropriate affiliate.
-
-![create_new_link_for_affiliate_popup](/img/create_new_link_for_affiliate_popup_ug1.png)
-
-####View Affiliate Leads
-
-The **Leads** tab, just to the right of the Links tab, displays the current list of leads for the selected affiliate.
-
-![affiliate_leads_table](/img/affiliate_leads_table_ug1.png)
-
-####View Affiliate Conversions
-
-The **Conversions** tab, just to the right of the Links tab, displays the current list of conversions for the selected affiliate.
-
-![affiliate_conversions_table](/img/affiliate_conversions_table_ug1.png)
-
-####View Affiliate Referral Sources
-
-The **Referrers** tab, just to the right of the Conversions tab, displays the referral sources for the affiliate. Click the URL of the referrer to see its entire statistics of clicks, leads, and conversions.
-
-####Affiliate Commissions At-A-Glance
-
-The final tab in the affiliate table, **Commissions**, will display the upcoming commissions payable to the affiliate.
-
-![affiliate_commissions_table](/img/affiliate_commissions_table_ug1.png)
