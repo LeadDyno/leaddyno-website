@@ -1,1 +1,153 @@
+body {
+  background: rgba(1, 1, 1, .03);
+}
 
+.navbar {
+  .brand {
+    font-weight: bold;
+    img {
+      margin-top: -12px;
+      margin-bottom: -8px;
+    }
+  }
+  margin-bottom: 24px;
+}
+
+.homepage-hero {
+  background: none repeat scroll 0 0 @white;
+  border-bottom: 1px solid #E0E0E0;
+  border-top: 1px solid #E0E0E0;
+  margin-bottom: 20px;
+  text-align: left;
+  h1 {
+    font-weight: bolder;
+    font-size: 44px;
+    line-height: 48px;
+  }
+}
+
+footer {
+  padding-top: 16px;
+  background: none repeat scroll 0 0 #383838;
+  color: #65676b;
+  a {
+    color: #65676b;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  h2 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+
+.feature-container {
+  .drop-shadow(3px, 3px, 3px, 0.1);
+  margin-top: 0;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #CDCDCD;
+  margin-bottom: 24px;
+  .feature-row {
+    padding: 25px;
+    margin-left: 0px;
+    height: 220px;
+    &:not(:first-child) {
+      border-top: 1px solid #CDCDCD;
+    }
+    div {
+      text-align: center;
+      margin: 0px;
+      width: 445px;
+    }
+    img {
+      width: 400px;
+    }
+    strong {
+      margin-top: 10%;
+      display: inline-block;
+      font-size: 22px;
+      color: #222;
+      font-weight: bolder;
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+}
+
+.signup-div {
+  margin-top: 8px;
+  b {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  input {
+    font-size: 17px;
+  }
+  .signup-div input[type=text] {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  input[type=submit] {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+  }
+}
+
+.newsletter-container {
+  .feature-container;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-image: url('http://leaddyno.com/wp-content/uploads/2013/06/marketing_bg.png');
+  img {
+    margin-top: 14px;
+  }
+}
+
+.inline-screenshot {
+  .border-radius(5px);
+  .drop-shadow(3px, 3px, 3px, 0.1);
+  border: 1px solid #CDCDCD;
+  margin-bottom: 24px;
+}
+
+#video-modal {
+  width: 640px;
+  .modal-header {
+    width: 640px;
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    .close {
+      display: inline-block;
+      margin: 8px;
+    }
+  }
+  .modal-body {
+    width: 640px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.feature-title-row {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  color: #222;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup-row {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  strong {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}

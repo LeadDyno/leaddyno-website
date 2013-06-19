@@ -1,200 +1,240 @@
 ---
 layout: default
 title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
+nav: product_tour > bar > do
 ---
 
-<div class="section-4" style="text-align: left;">
+<div class="homepage-hero" style="text-align: left;">
   <div class="container">
     <div class="row">
       <div class="span6" style="margin-top: 50px;">
-        <div style="margin-bottom: 12px; font-size: 44px; line-height: 50px; font-weight: bolder; color: #222;">
-          Affiliate Tracking Software &#8211; in Minutes
-        </div>
-        <div style="margin-bottom: 12px; font-size: 24px; line-height: 38px; ;color: #222;">Kickoff Your Affiliate
-          Program Today
-        </div>
-        <div style="font-size: 16px;">Affiliate tracking made easy. Recruit and manage affiliates, coordinate marketing
-          promotions, and pay commissions automatically.
-        </div>
-        <div class="pagination-centered signup-div" style="margin-top: 42px;">
-          <p><a class="btn btn-primary btn-large" style="font-size: 28px;"
-                href="https://app.leaddyno.com/signup"><strong>Start Your Free Trial</strong></a></p>
+        <h1>Affiliate Tracking Software &#8211; in Minutes</h1>
 
-          <div style="margin-top: 12px; font-size: 18px; font-weight: bold;">or <a href="/tour/">Take The Tour →</a>
+        <h3>Kickoff Your Affiliate Program Today</h3>
+
+        <p>Affiliate tracking made easy. Recruit and manage affiliates, coordinate marketing
+          promotions, and pay commissions automatically.
+        </p>
+
+        <div class="pagination-centered">
+          <div>
+            <a class="btn btn-primary btn-large" href="https://app.leaddyno.com/signup">
+              <strong>Start Your Free Trial</strong>
+            </a>
+          </div>
+          <div>
+            <h4>
+              or <a href="/tour/">Take The Tour →</a>
+            </h4>
           </div>
         </div>
       </div>
-      <div class="span6 pagination-centered"><a href="#" data-toggle="modal" data-target="#video-modal"
-                                                onclick="setTimeout('startVideo()', 100)"><img alt=""
-                                                                                               src="img/preview.png"/></a>
+
+      <div class="span6 pagination-centered">
+        <a href="#" data-toggle="modal" data-target="#video-modal" onclick="setTimeout('startVideo()', 100)">
+          <img alt="" src="img/preview.png"/>
+        </a>
       </div>
     </div>
   </div>
 </div>
-<div class="modal hide fade" id="video-modal" style="width: 640px;">
-  <div class="modal-header" style="width: 640px; padding: 0px; margin: 0px; height: 40px;">
-    <button class="close" style="display: inline-block; margin: 8px;" type="button" data-dismiss="modal">×</button>
+
+<!-- Youtube video -->
+<div class="modal hide fade" id="video-modal">
+  <div class="modal-header">
+    <button class="close" type="button" data-dismiss="modal">×</button>
   </div>
-  <div class="modal-body" style="width: 640px; padding: 0px; margin: 0px;">
+  <div class="modal-body">
     <div id="mainVideo"></div>
   </div>
 </div>
-<p>
-  <script>
-    // 2. This code loads the IFrame Player API code asynchronously.
-    var tag = document.createElement('script');
-    tag.src = "https://www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    // 3. This function creates an <iframe> (and YouTube player)
-    //    after the API code downloads.
-    var player;
-    function onYouTubeIframeAPIReady() {
-      player = new YT.Player('mainVideo', {
-        height: '390',
-        width: '640',
-        videoId: '46lW5iLTI1U',
-        playerVars: {
-          'showInfo': 0,
-          'autohide': 1,
-          'modestbranding': 1,
-          'rel': 0
-        },
-        events: {
-          'onReady': onPlayerReady,
-          'onStateChange': onPlayerStateChange
-        }
-      });
-    }
-    // 4. The API will call this function when the video player is ready.
-    function onPlayerReady(event) {
-    }
-    // 5. The API calls this function when the player's state changes.
-    //    The function indicates that when playing a video (state=1),
-    //    the player should play for six seconds and then stop.
-    function onPlayerStateChange(event) {
-    }
-    function startVideo() {
-      player.playVideo();
-    }
-    function stopVideo() {
-      player.stopVideo();
-    }
-    jQuery(function () {
-      $('body').click(function () {
-        stopVideo();
-      });
+
+<script>
+  // 2. This code loads the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  // 3. This function creates an <iframe> (and YouTube player)
+  //    after the API code downloads.
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('mainVideo', {
+      height: '390',
+      width: '640',
+      videoId: '46lW5iLTI1U',
+      playerVars: {
+        'showInfo': 0,
+        'autohide': 1,
+        'modestbranding': 1,
+        'rel': 0
+      },
+      events: {
+        'onReady': onPlayerReady,
+        'onStateChange': onPlayerStateChange
+      }
     });
-  </script>
-</p>
-<div class="container feature-container free-offer-container">
+  }
+  // 4. The API will call this function when the video player is ready.
+  function onPlayerReady(event) {
+  }
+  // 5. The API calls this function when the player's state changes.
+  //    The function indicates that when playing a video (state=1),
+  //    the player should play for six seconds and then stop.
+  function onPlayerStateChange(event) {
+  }
+  function startVideo() {
+    player.playVideo();
+  }
+  function stopVideo() {
+    player.stopVideo();
+  }
+  jQuery(function () {
+    $('body').click(function () {
+      stopVideo();
+    });
+  });
+</script>
+
+<div class="container newsletter-container">
   <div class="span8">
-    <p><img style="height: 100px; width: 100px; float: left; margin-right: 12px;" alt=""
-            src="http://leaddyno.com/wp-content/uploads/2012/12/ld1.png"/></p>
+    <p>
+      <img style="height: 100px; width: 100px; float: left; margin-right: 12px;" alt=""
+           src="http://leaddyno.com/wp-content/uploads/2012/12/ld1.png"/></p>
 
     <h3>LeadDyno&#8217;s Affiliate Marketing Starter Guide</h3>
 
     <p>Learn how to setup and run a successful affiliate &amp; referral marketing program.</p>
   </div>
   <div class="span3 pagination-centered" style="margin-top: 16px; margin-left: 30px;">
-    <div id="start_guide_div"><input id="start_guide_email" type="text" placeholder="Enter Your Email"/><br/>
-      <button class="btn btn-primary" id="start_guide_btn"><strong>Email Me The Guide!</strong></button>
+    <div id="start_guide_div">
+      <div>
+        <input id="start_guide_email" type="text" placeholder="Enter Your Email"/>
+      </div>
+      <button class="btn btn-primary" id="start_guide_btn">
+        <strong>Email Me The Guide!</strong>
+      </button>
     </div>
-    <div class="hide" id="start_guide_success"><strong>Thank you! You will be receiving the guide shortly.</strong>
+    <div class="hide" id="start_guide_success">
+      <strong>Thank you! You will be receiving the guide shortly.</strong>
     </div>
   </div>
 </div>
+
 <div class="container">
-  <div class="row" style="padding-top: 22px; padding-bottom: 22px; color: #222;">
+  <div class="row feature-title-row">
     <div class="span12 pagination-centered">
-      <div style="font-size: 24px; font-weight: bold;">How Does LeadDyno Power Your Affiliate Marketing?</div>
+      How Does LeadDyno Power Your Affiliate Marketing?
     </div>
   </div>
 </div>
+
 <div class="container feature-container">
+
   <div class="row feature-row">
     <div class="span6">
-      <p><strong>Simple Affiliate Management</strong></p>
-
-      <p>Add, manage and track affiliates in a few clicks. You can even automate your affiliate signup process, making
-        building your affiliate network effortless.</p>
-
-      <p><a href="http://leaddyno.com/affiliate-tracking-software/">Read More&#8230;</a></p>
-    </div>
-    <div class="span6"><img class="ds-img" alt=""
-                            src="http://leaddyno.com/wp-content/uploads/2013/03/affiliate_mgmt.png"/></div>
-  </div>
-  <div class="row feature-row">
-    <div class="span6"><img class="ds-img" alt="" src="http://leaddyno.com/wp-content/uploads/2013/03/pay.png"/></div>
-    <div class="span6">
-      <p><strong>One Click Compensation</strong></p>
-
-      <p>Compensate your affiliates quickly and painlessly, on your schedule (quarterly, monthly, etc.) using Paypal,
-        Dwolla, Recurly or a custom webhook.</p>
-
-      <p><a href="http://leaddyno.com/affiliate-compensation-plan/">Read More&#8230;</a></p>
-    </div>
-  </div>
-  <div class="row feature-row">
-    <div class="span6">
-      <p><strong>Seamless Integrations</strong></p>
-
-      <p>Utilize LeadDyno as a lead front-end for your CRM system. Integrate LeadDyno directly into your billing
-        provider to handle lead conversion and cancellation automatically.</p>
-
-      <p><a href="http://leaddyno.com/online-marketing-software/pay-per-click-conversion-tracking/">Read More&#8230;</a>
+      <strong>Simple Affiliate Management</strong>
+      <p>
+        Add, manage and track affiliates in a few clicks. You can even automate your affiliate signup process, making
+        building your affiliate network effortless.
+      </p>
+      <p>
+        <a href="http://leaddyno.com/affiliate-tracking-software/">Read More&#8230;</a>
       </p>
     </div>
-    <div class="span6" style="margin-top: 30px;"><img alt=""
-                                                      src="http://leaddyno.com/wp-content/uploads/2013/06/integ.png"/>
+    <div class="span6">
+      <img class="inline-screenshot" alt="" src="http://leaddyno.com/wp-content/uploads/2013/03/affiliate_mgmt.png"/>
     </div>
   </div>
-  <div class="row feature-row">
-    <div class="span6" style="margin-top: 70px;"><img class="ds-img" style="width: 300px;" alt=""
-                                                      src="http://leaddyno.com/wp-content/uploads/2013/03/social.png"/>
-    </div>
-    <div class="span6">
-      <p><strong>Viral User Growth</strong></p>
 
-      <p>LeadDyno makes it simple to turn your customers into affiliates. Embed social sharing links in your application
-        or take advantage of LeadDyno&#8217;s viral email follow-up system.</p>
-
-      <p><a href="http://leaddyno.com/viral_api/">Read More&#8230;</a></p>
-    </div>
-  </div>
   <div class="row feature-row">
     <div class="span6">
-      <p><strong>Social Campaign Management</strong></p>
-
-      <p>Drive engagement with your affiliates via social campaigns. Drive custom, SEO-friendly content out through your
-        affiliate program with minimal effort.</p>
-
-      <p><a href="http://leaddyno.com/affiliate-tracking-software/social-media-content-sharing/">Read More&#8230;</a>
+      <img class="inline-screenshot" alt="" src="http://leaddyno.com/wp-content/uploads/2013/03/pay.png"/>
+    </div>
+    <div class="span6">
+      <strong>One Click Compensation</strong>
+      <p>
+        Compensate your affiliates quickly and painlessly, on your schedule (quarterly, monthly, etc.) using Paypal,
+        Dwolla, Recurly or a custom webhook.
+      </p>
+      <p>
+        <a href="http://leaddyno.com/affiliate-compensation-plan/">Read More&#8230;</a>
       </p>
     </div>
-    <div class="span6" style="margin-top: 20px;"><img class="ds-img" alt=""
-                                                      src="http://leaddyno.com/wp-content/uploads/2013/03/social1.png"/>
+  </div>
+
+  <div class="row feature-row">
+    <div class="span6">
+      <strong>Seamless Integrations</strong>
+      <p>
+        Utilize LeadDyno as a lead front-end for your CRM system. Integrate LeadDyno directly into your billing
+        provider to handle lead conversion and cancellation automatically.
+      </p>
+      <p>
+        <a href="http://leaddyno.com/online-marketing-software/pay-per-click-conversion-tracking/">Read More&#8230;</a>
+      </p>
+    </div>
+    <div class="span6" style="margin-top: 30px;">
+      <img alt="" src="http://leaddyno.com/wp-content/uploads/2013/06/integ.png"/>
     </div>
   </div>
+
   <div class="row feature-row">
-    <div class="span6"><img class="ds-img" alt="" src="http://leaddyno.com/wp-content/uploads/2013/03/custom.png"/>
+    <div class="span6" style="margin-top: 70px;">
+      <img class="inline-screenshot" style="width: 300px;" src="http://leaddyno.com/wp-content/uploads/2013/03/social.png"/>
     </div>
     <div class="span6">
-      <p><strong>Fully Customizable</strong></p>
-
-      <p>LeadDyno&#8217;s affiliate dashboard is fully customizable and embeddable, so you can brand your affiliate
-        program while still taking advantage of LeadDyno&#8217;s functionality.</p>
-
-      <p><a href="http://leaddyno.com/affiliate-tracking-software/affiliate-management/">Read More&#8230;</a></p>
+      <strong>Viral User Growth</strong>
+      <p>
+        LeadDyno makes it simple to turn your customers into affiliates. Embed social sharing links in your application
+        or take advantage of LeadDyno&#8217;s viral email follow-up system.
+      </p>
+      <p>
+        <a href="http://leaddyno.com/viral_api/">Read More&#8230;</a>
+      </p>
     </div>
   </div>
-  <p>&nbsp;</p>
-</div>
-<div class="container" style="&quot;padding-top: 12px; padding-bottom: 32px;">
-  <div class="row">
-    <div class="span12 pagination-centered"><a class="btn btn-primary btn-large" style="font-size: 28px;"
-                                               href="https://app.leaddyno.com/signup"><strong>Start Your Free
-      Trial</strong></a></div>
+
+  <div class="row feature-row">
+    <div class="span6">
+      <strong>Social Campaign Management</strong>
+      <p>
+        Drive engagement with your affiliates via social campaigns. Drive custom, SEO-friendly content out through your
+        affiliate program with minimal effort.
+      </p>
+      <p>
+        <a href="http://leaddyno.com/affiliate-tracking-software/social-media-content-sharing/">Read More&#8230;</a>
+      </p>
+    </div>
+    <div class="span6" style="margin-top: 20px;">
+      <img class="inline-screenshot" src="http://leaddyno.com/wp-content/uploads/2013/03/social1.png"/>
+    </div>
+  </div>
+
+  <div class="row feature-row">
+    <div class="span6">
+      <img class="inline-screenshot" src="http://leaddyno.com/wp-content/uploads/2013/03/custom.png"/>
+    </div>
+    <div class="span6">
+      <strong>Fully Customizable</strong>
+      <p>
+        LeadDyno&#8217;s affiliate dashboard is fully customizable and embeddable, so you can brand your affiliate
+        program while still taking advantage of LeadDyno&#8217;s functionality.
+      </p>
+      <p>
+        <a href="http://leaddyno.com/affiliate-tracking-software/affiliate-management/">Read More&#8230;</a>
+      </p>
+    </div>
   </div>
 </div>
-<p>&nbsp;</p>
+
+<div class="container">
+  <div class="row signup-row">
+    <div class="span12 pagination-centered">
+      <a class="btn btn-primary btn-large" href="https://app.leaddyno.com/signup">
+        <strong>Start Your Free Trial</strong>
+      </a>
+    </div>
+  </div>
+</div>
+
