@@ -16,7 +16,7 @@ module Jekyll
     end
     def render(context)
       nav = context.registers[:page]['nav'] || ''
-      'hide' unless nav.include? @text
+      'hide' unless nav.include? @text.chop
     end
   end
 end

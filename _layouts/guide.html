@@ -9,11 +9,30 @@ layout: default
         <ul class="nav nav-list">
 
           <li class="nav-header">User Guide</li>
+          <li class="{% active installation %}">
+            <a href="/guide/installation.html">Installation</a>
+            <ul class="nav nav-list {% unless installation %}">
+              <li><a href="#overview">Account Setup</a></li>
+              <li><a href="#visitor_tracking">Visitor Tracking</a></li>
+              <li><a href="#lead_tracking">Lead Tracking</a></li>
+              <li><a href="#purchase_tracking">Purchase Tracking</a></li>
+              <li><a href="#cancellation_tracking">Cancellation Tracking</a></li>
+              <li><a href="#affiliate_form">Affiliate Form</a></li>
+              <li><a href="#affiliate_link">Affiliate Link</a></li>
+              <li><a href="#sharing_buttons">Sharing Buttons</a></li>
+            </ul>
+          </li>
           <li class="{% active affiliate-management %}">
             <a href="/guide/affiliate-management.html">Affiliate Management</a>
           </li>
           <li class="{% active affiliate-dashboard %}">
             <a href="/guide/affiliate-dashboard.html">Affiliate Dashboard</a>
+          </li>
+
+          <li class="nav-header">Developer Guide</li>
+          <li>
+            <a href="http://developer.leaddyno.com/js-api.html">Javascript API</a>
+            <a href="http://developer.leaddyno.com/rest-api.html">REST API</a>
           </li>
 
           <li class="nav-header">Integration Guide</li>
