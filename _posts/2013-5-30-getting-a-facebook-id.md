@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Getting a Facebook App ID"
-date:   2013-05-30 0:0:0
-categories: tutorials leaddyno 
+date:   2013-05-30
+categories: blog
 author: gabbi@leaddyno.com
 ---
 
