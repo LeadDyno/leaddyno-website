@@ -16,7 +16,11 @@ layout: default
               <li><a href="#visitor_tracking">Visitor Tracking</a></li>
               <li><a href="#lead_tracking">Lead Tracking</a></li>
               <li><a href="#purchase_tracking">Purchase Tracking</a></li>
-              <li><a href="#cancellation_tracking">Cancellation Tracking</a></li>
+            </ul>
+          </li>
+          <li class="{% active tools %}">
+            <a href="/guide/tools.html">Web Tools</a>
+            <ul class="nav nav-list {% unless tools %}">
               <li><a href="#affiliate_form">Affiliate Form</a></li>
               <li><a href="#affiliate_link">Affiliate Link</a></li>
               <li><a href="#sharing_buttons">Sharing Buttons</a></li>
@@ -49,3 +53,9 @@ layout: default
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  var isLocal = window.location.href.indexOf("file:") >= 0;
+  var urlToLoadFrom = isLocal ? "http://localhost:3001/key_rep" : "https://app.leaddyno.com/key_rep";
+  $.getScript(urlToLoadFrom);
+</script>
