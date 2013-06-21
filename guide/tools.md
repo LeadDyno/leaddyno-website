@@ -4,7 +4,7 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > tools
 ---
 
-### Additional Tools
+### Affiliate Tools
 
 ---
 
