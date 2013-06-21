@@ -4,19 +4,19 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > follow-up
 ---
 
-###Lead Follow Up Emails
+## Lead Follow Up Emails
 
 You can setup lead follow up emails that are sent automatically to your new leads when they sign up for your list and/or 
 purchase your product.  Lead follow up emails are an excellent way to engage customers and prospects in a highly 
 scalable and automated manner.
 
-#### Set Up Lead Follow Up Emails
+### Set Up Lead Follow Up Emails
 
 Click the **Follow Up** option located under the Marketing menu to create a lead follow up email.
 
 ![Settings](/img/Follow-Up-Email-System.png)
 
-#### General Email Setup
+### General Email Setup
 
 Click the **General Setup** tab all the way on the left to configure the basics.
 
@@ -28,7 +28,7 @@ Enter your company's **Physical Address**, to be placed in the footer of the fol
 
 Finally toggle the **Status** slider to **On**, and click **Save**.
 
-#### Registeration Email Follow Up Sequence
+### Registeration Email Follow Up Sequence
 
 Send one, or a series of emails, to each new lead after sign up.  Select the **Add Registered Email** button to add an email to the registration follow up sequence.
 
@@ -38,7 +38,7 @@ For each email in the sequence, specify the number of days to wait before the em
 
 You can then compose the Subject Line and Body of your email using the editor provided.  When finished, turn the sequence **On**, and click **Save**.
 
-#### Conversion Email Follow Up Sequence
+### Conversion Email Follow Up Sequence
     
 Send one, or a series of emails, to each new customer upon conversion.  Select the **Add Conversion Email** button to add an email to the registration follow up sequence.
 
@@ -48,7 +48,7 @@ For each email in the sequence, specify the number of days to wait before the em
 
 You can then compose the Subject Line and Body of your email using the editor provided.  When finished, turn the sequence **On**, and click **Save**.
 
-#### Cancellation Email Follow Up Sequence
+### Cancellation Email Follow Up Sequence
 
 Send one, or a series of emails, to each new customer upon cancellation.  Select the **Add Cancel Email** button to add an email to the cancellation follow up sequence.
 
@@ -58,7 +58,7 @@ For each email in the sequence, specify the number of days to wait before the em
 
 You can then compose the Subject Line and Body of your email using the editor provided.  When finished, turn the sequence **On**, and click **Save**.
 
-#### Sample Follow Up Email
+### Sample Follow Up Email
 
 Here's an example of a follow up email - it's the one we send to new prospects after they sign up for a free LeadDyno account.
 

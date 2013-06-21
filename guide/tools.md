@@ -4,12 +4,10 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > tools
 ---
 
-### Affiliate Tools
-
----
+## Affiliate Tools
 
 <a class="docs-anchor" id='affiliate_form'> </a>
-#### Affiliate Sign Up Form
+### Affiliate Sign Up Form
 
 If you'd like to enable anyone to join your affiliate program, you can use this form:
 
@@ -37,7 +35,7 @@ Which will render like so:
 </div>
 
 <a class="docs-anchor" id='affiliate_link'>&nbsp;</a>
-#### Affiliate Link/Button
+### Affiliate Link/Button
 
 If you have a users email (for example, if they are signed in on your site, or have just made a purchase,
 you can render a link, rather than a form, to join your affiliate program:
@@ -54,7 +52,7 @@ however you'd like
 
 <a class="docs-anchor" id='sharing_buttons'>&nbsp;</a>
 
-#### Share Buttons
+### Share Buttons
 
 You can create share buttons that are tracked and tied to the content managed in the 
 [Social Content](https://app.leaddyno.com/content) section of LeadDyno using our 'instant share'

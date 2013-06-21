@@ -4,17 +4,16 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > paypal-integration-guide
 ---
 
-# Paypal Integration Guide #
+## Paypal Integration Guide
 
-
-## Introduction ##
+### Introduction
 
 This guide explains how to integrate PayPal one-time purchase and subscription buttons into LeadDyno. The integration
 between PayPal and LeadDyno allows automated tracking of lead conversion, cancellation and affiliate compensation for purchases
 made via PayPal buttons.
 
 
-## Paypal Buttons ##
+### Paypal Buttons
 
 PayPal buttons are elements you put on your website that allow consumers to purchase your products or services. To
 create the buttons, from the PayPal interface, put your mouse over **Profile** and select **My Selling Tools** from the drop down list.
@@ -27,7 +26,7 @@ From here, you will see the **My Buttons** page. To create a new button integrat
 from the right *Related Items* menu. Select either **Buy Now** or **Subscriptions**.
 
 
-### Subscription Button ###
+#### Subscription Button
 
 Subscription buttons allow your customers to subscribe to a recurring service and they are automatically charged based
 on the *Billing Cycle* you choose. In the image below, the button would charge the customer $50 every month forever until
@@ -52,7 +51,7 @@ After setting all the button parameters needed for your service, click *Create B
 HTML to place on your website.
 
 
-### One Time Purchase Button ###
+#### One Time Purchase Button
 
 From a LeadDyno integration perspective, one time buttons are very similar to subscription buttons. One time payment
 buttons are used if you want to sell individual items or a service that does not automatically renew on a specific interval.
@@ -64,8 +63,7 @@ either a fixed amount or some percentage of the sale.
 
 ![PayPal Buy Now Button](/img/pp_guide_buynow_button.png)
 
-
-## Enable PayPal Integration with LeadDyno ##
+### Enable PayPal Integration with LeadDyno
 
 The PayPal integration with LeadDyno is done via the [JavaScript API](http://developer.leaddyno.com/js-api.html).
 To enable PayPal integration with LeadDyno, call the function
@@ -89,9 +87,7 @@ every page of your site:
 
 Replace **YOUR_PUBLIC_KEY** with your public API key found on the [LeadDyno Dashboard](https://app.leaddyno.com/settings/account).
 
-
-
-## Conclusion ##
+### Conclusion
 
 LeadDyno is able to seemlessly integrate with both one time and subscription PayPal buttons with no changes to the html
 of the button. The only coordination between the button and LeadDyno is the Item ID (for one time buttons) or the

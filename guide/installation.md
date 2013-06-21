@@ -4,11 +4,9 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > installation
 ---
 
-##Installation Instructions
+## Installation Instructions
 
----
-
-###Account Setup
+### Account Setup
 
 The first step in installing LeadDyno is to sign up for an account [here](https://app.leaddyno.com/users/sign_up)
 then get your public and private keys via [Your Account Page](https://app.leaddyno.com/settings/account).
