@@ -60,14 +60,14 @@ footer {
   .blog-feed {
     li {
       .clearfix;
-      margin-top : 16px;
+      margin-top: 16px;
       margin-bottom: 16px;
       img {
-        float:left;
+        float: left;
       }
       a {
         display: inline-block;
-        float:right;
+        float: right;
         width: 150px;
         margin-right: 20px;
       }
@@ -99,7 +99,8 @@ footer {
     margin-bottom: 8px;
   }
   .blog-content {
-   padding: 16px;
+    .markdown-doc-styling;
+    padding: 16px;
   }
   .blog-nav {
     border-top: 1px solid @grayLighter;
@@ -123,7 +124,8 @@ footer {
     border-bottom: 1px solid @grayLighter;
     &:first-child {
       border-top: 1px solid @grayLighter;
-    };
+    }
+  ;
     div {
       text-align: center;
       margin: 0px;
@@ -224,7 +226,7 @@ footer {
   }
 }
 
-.markdown-doc-styling {
+.standard-container {
   .drop-shadow(3px, 3px, 3px, 0.1);
   margin-top: 24px;
   border-radius: 5px;
@@ -232,9 +234,12 @@ footer {
   border: 1px solid #CDCDCD;
   padding: 12px;
   margin-bottom: 24px;
+}
+
+.markdown-doc-styling {
   iframe {
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -242,8 +247,8 @@ footer {
   img {
     .border-radius(5px);
     .drop-shadow(3px, 3px, 3px, 0.1);
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -260,10 +265,11 @@ footer {
 
 .tour-container {
   .tour-content {
+    .standard-container;
+    .markdown-doc-styling;
     h2 {
       .pagination-centered;
     }
-    .markdown-doc-styling;
   }
 }
 
@@ -277,11 +283,12 @@ footer {
     background: @white;
   }
   .guide-content {
+    .standard-container;
     .markdown-doc-styling;
   }
 }
 
-.pricing-row{
+.pricing-row {
   background: @white;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -290,7 +297,7 @@ footer {
   .pricing-span {
     .pricing-list {
       .pagination-centered;
-      float:left;
+      float: left;
       border-radius: 5px;
       display: inline-block;
       width: 32%;
@@ -311,8 +318,8 @@ footer {
         margin-bottom: 8px
       }
       h4 {
-        margin:0px;
-        padding-top:12px;
+        margin: 0px;
+        padding-top: 12px;
         background-color: #5BB75C;
         color: #FFFFFF;
         height: 30px;

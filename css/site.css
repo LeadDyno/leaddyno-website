@@ -5416,6 +5416,34 @@ footer .blog-feed li a {
 .blog-container .blog-content {
   padding: 16px;
 }
+.blog-container .blog-content iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.blog-container .blog-content img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #CDCDCD;
+  max-width: 500px;
+}
+.blog-container .blog-content .tour-video-caption {
+  text-align: center;
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
 .blog-container .blog-nav {
   border-top: 1px solid #eeeeee;
   *zoom: 1;
@@ -5546,7 +5574,7 @@ footer .blog-feed li a {
   font-size: 24px;
   font-weight: bold;
 }
-.markdown-doc-styling {
+.standard-container {
   -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
@@ -5596,9 +5624,6 @@ footer .blog-feed li a {
   padding: 12px;
   margin-bottom: 24px;
 }
-.tour-container .tour-content h2 {
-  text-align: center;
-}
 .tour-container .tour-content iframe {
   margin-left: auto;
   margin-right: auto;
@@ -5626,6 +5651,9 @@ footer .blog-feed li a {
   padding-bottom: 12px;
   font-weight: bold;
   font-style: italic;
+}
+.tour-container .tour-content h2 {
+  text-align: center;
 }
 .guide-container .guide-nav {
   border-radius: 5px;
