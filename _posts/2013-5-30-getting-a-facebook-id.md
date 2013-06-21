@@ -6,8 +6,8 @@ categories: tutorials leaddyno
 author: gabbi@leaddyno.com
 ---
 
-Here&#8217;s how to get a Facebook App ID for your website.  First, you need to have a Facebook account. If you
-don&#8217;t have one already, go to <a href="http://www.facebook.com/">www.facebook.com</a> and sign up for one.
+Here's how to get a Facebook App ID for your website.  First, you need to have a Facebook account. If you
+don't have one already, go to <a href="http://www.facebook.com/">www.facebook.com</a> and sign up for one.
 After you have that done, go to <a href="http://developers.facebook.com/">developers.facebook.com</a>.
 Now to get started!
 
@@ -27,16 +27,17 @@ account.
 ![Facebook](/img/fbapp5.png)
 
 After confirming your number, facebook gives you the option to set your privacy settings which connects back to your
-normal Facebook page. After you&#8217;ve got that set to your liking, click *Continue*.
+normal Facebook page. After you've got that set to your liking, click *Continue*.
 
 ![Facebook](/img/fbapp6.png)
 
 Next Facebook asks about you. You can choose to skip this step if you want. Also make sure to note the prechecked boxes
-at the bottom of the page for liking the page and receiving email notifications. If you don&#8217;t want this, uncheck the boxes before clicking *Continue* or *Skip*.
+at the bottom of the page for liking the page and receiving email notifications. If you don't want this, uncheck 
+the boxes before clicking *Continue* or *Skip*.
 
 ![Facebook](/img/fbapp8.png)
 
-*Congratulations!* You&#8217;re now a Facebook developer!! Still not quite finished though. To get a Facebook App ID,
+*Congratulations!* You're now a Facebook developer!! Still not quite finished though. To get a Facebook App ID,
 you have to go through a few more steps. Click *Done*.
 
 ![Facebook](/img/fbapp9.png)
@@ -53,20 +54,20 @@ A window will pop up. Name your App, and click *Continue*.
 
 ![Facebook](/img/fbapp13.png)
 
-A security check pops up. Enter the captcha to verify you&#8217;re human, and click *Continue*.
+A security check pops up. Enter the captcha to verify you're human, and click *Continue*.
 
 ![Facebook](/img/fbapp14.png)
 
-You&#8217;ll be taken to your Apps &lt; Settings &lt; Basic menu that contains your App ID and information. Since
-it&#8217;s your first time here, facebook will ask you if you want to Host your site on Heroku. You can create it, or
+You'll be taken to your Apps > Settings > Basic menu that contains your App ID and information. Since
+it's your first time here, facebook will ask you if you want to Host your site on Heroku. You can create it, or
 cancel it as you want.
 
 ![Facebook](/img/fbapp15.png)
 
-Now you&#8217;re all set! You have your Facebook App ID. There is just one last thing before you can make it public.
+Now you're all set! You have your Facebook App ID. There is just one last thing before you can make it public.
 Facebook automatically puts your App into Sandbox mode. To get out of it, go to (or remain in) your Apps &lt;
 Settings &lt; Basic menu. Look underneath where your App ID information is, in the Basic Info section. At the bottom
-there will be the option for Sandbox Mode. Simply click the bubble for the *Disabled* option. Now you&#8217;re all set
+there will be the option for Sandbox Mode. Simply click the bubble for the *Disabled* option. Now you're all set
 up. I hope this was helpful.
 
 ![Facebook](/img/fbapp16.png)
