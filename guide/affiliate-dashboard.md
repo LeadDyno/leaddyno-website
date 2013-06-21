@@ -4,7 +4,6 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > affiliate-dashboard
 ---
 
-
 #Affiliate Dashboard
 
 Affiliates can track their own progress in real-time via their **Affiliate Dashboard**. You will provide them with a unique link to their dashboard, so that they can monitor their current clicks, leads, and conversions.
@@ -12,7 +11,8 @@ Affiliates can track their own progress in real-time via their **Affiliate Dashb
 Video Demo: [Affiliate Management via LeadDyno's Affiliate Dashboard](http://youtu.be/kfSOxmiT2XM)
 
 <div>
-	<iframe width="640" height="360" src="http://www.youtube.com/embed/kfSOxmiT2XM?feature=player_embedded" frameborder="0" ></iframe>
+	<iframe width="640" height="360" src="http://www.youtube.com/embed/kfSOxmiT2XM?feature=player_embedded" frameborder="0" >
+	</iframe>
 </div>
 
 ####Accessing the Affiliate Dashboard
