@@ -5326,6 +5326,9 @@ body .main-content {
   margin-bottom: -8px;
 }
 .secondary-nav .navbar-inner {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   background-color: #419441;
   background-image: none;
 }
@@ -5395,6 +5398,7 @@ footer .blog-feed li a {
   border-radius: 5px;
   background-color: white;
   border: 1px solid #CDCDCD;
+  padding: 12px;
   margin-bottom: 24px;
 }
 .blog-container .blog-title {
@@ -5519,6 +5523,7 @@ footer .blog-feed li a {
   -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
   border: 1px solid #CDCDCD;
   margin-bottom: 24px;
   padding-top: 14px;
@@ -5702,29 +5707,22 @@ footer .blog-feed li a {
   font-weight: bold;
   font-style: italic;
 }
-.pricing-row {
-  background: #ffffff;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  border-radius: 5px;
-  border: 1px solid #CDCDCD;
-}
-.pricing-row .pricing-span .pricing-list {
+.pricing-list {
   text-align: center;
-  float: left;
   border-radius: 5px;
   display: inline-block;
   width: 32%;
   heigh: 500px;
   border: 1px solid #CDCDCD;
   margin: 1px;
+  float: left;
 }
-.pricing-row .pricing-span .pricing-list li {
+.pricing-list li {
   border-top: 1px solid #CDCDCD;
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.pricing-row .pricing-span .pricing-list .price-value {
+.pricing-list .price-value {
   display: block;
   color: #5BB75B;
   font-size: 40px;
@@ -5732,7 +5730,7 @@ footer .blog-feed li a {
   line-height: 40px;
   margin-bottom: 8px;
 }
-.pricing-row .pricing-span .pricing-list h4 {
+.pricing-list h4 {
   margin: 0px;
   padding-top: 12px;
   background-color: #5BB75C;
@@ -5740,10 +5738,11 @@ footer .blog-feed li a {
   height: 30px;
   font-size: 24px;
 }
-.pricing-row .pricing-span .pricing-list.free-list {
+.pricing-list.free-list {
   margin-top: 18px;
+  margin-left: 10px;
 }
-.pricing-row .pricing-span .pricing-list.free-list h4 {
+.pricing-list.free-list h4 {
   font-size: 18px;
   height: 18px;
   margin: 0px;
