@@ -7,22 +7,20 @@ title:  "The LeadDyno Blog"
 <div class="container">
   <div class="row">
     <div class="span12">
-      <div class="standard-container">
-        <ul class="unstyled">
-          <h3>LeadDyno Blog</h3>
-          {% for post in site.posts %}
-          <li>
-            <h4><span><img style="display: inline-block" src="{% gravatar post.author %}" class="img-circle"> <a href="{{ post.url }}">{{ post.title }}</a></span></h4>
-            <blockquote>
-              <p>{{ post.excerpt }}</p>
-            </blockquote>
-            <p class="clearfix">
-              <a class="pull-right" href="{{ post.url }}">Read More &raquo; </a>
-            </p>
-          </li>
-          {% endfor %}
-        </ul>
+      {% for post in site.posts %}
+      <div class="blog-preview">
+        <h4><span><img style="display: inline-block" src="{% gravatar post.author %}" class="img-circle"> <a
+          href="{{ post.url }}">{{ post.title }}</a></span></h4>
+        <hr/>
+        {{ post.excerpt }}
+
+        <hr/>
+        <div class="clearfix">
+          <a class="pull-left btn btn-success" href="{{ post.url }}">Read More &raquo; </a>
+        </div>
       </div>
+      {% endfor %}
+
     </div>
   </div>
 </div>

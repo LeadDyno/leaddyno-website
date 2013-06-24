@@ -5313,7 +5313,7 @@ a.badge:focus {
   position: fixed;
 }
 body {
-  background: rgba(1, 1, 1, 0.03);
+  background: rgba(1, 1, 1, 0.02);
 }
 body .main-content {
   min-height: 700px;
@@ -5461,6 +5461,20 @@ footer .blog-feed li a {
 }
 .blog-container .blog-nav:after {
   clear: both;
+}
+.blog-preview {
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #CDCDCD;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+.blog-preview p {
+  margin: 24px;
 }
 .feature-container {
   -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
