@@ -21,7 +21,7 @@ This guide will help you through each step.
 The first step in installing LeadDyno is to sign up for an account [here](https://app.leaddyno.com/users/sign_up)
 then get your public and private keys via [Your Account Page](https://app.leaddyno.com/settings/account).
 
-<a class="docs-anchor" id='visitor_tracking'>&nbsp;</a>
+<a class="docs-anchor" id='visitor_tracking'> </a>
 ### Visitor Tracking
 
 To get visitor tracking going, add the following code each page on your site:
@@ -46,7 +46,7 @@ This will load the LeadDyno library and begin tracking where your visitors are c
   <strong>Note:</strong> This code should be on every page of your site, similar to Google Analytics.
 </div>
 
-<a class="docs-anchor" id='lead_tracking'>&nbsp;</a>
+<a class="docs-anchor" id='lead_tracking'> </a>
 
 ### Lead Tracking
 
@@ -92,7 +92,7 @@ Here is some example PHP:
 
 A typical installation would place this on the post-signup landing page.
 
-<a class="docs-anchor" id='purchase_tracking'>&nbsp;</a>
+<a class="docs-anchor" id='purchase_tracking'> </a>
 
 ### Purchase Tracking
 

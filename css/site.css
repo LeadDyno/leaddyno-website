@@ -5442,6 +5442,16 @@ footer .blog-feed li a {
   border: 1px solid #CDCDCD;
   max-width: 500px;
 }
+.blog-container .blog-content p,
+.blog-container .blog-content pre {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.blog-container .blog-content ol,
+.blog-container .blog-content ul {
+  margin-left: 40px;
+  margin-right: 40px;
+}
 .blog-container .blog-content .tour-video-caption {
   text-align: center;
   padding-bottom: 12px;
@@ -5513,6 +5523,16 @@ footer .blog-feed li a {
   margin-bottom: 24px;
   border: 1px solid #CDCDCD;
   max-width: 500px;
+}
+.blog-preview .blog-content p,
+.blog-preview .blog-content pre {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.blog-preview .blog-content ol,
+.blog-preview .blog-content ul {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .blog-preview .blog-content .tour-video-caption {
   text-align: center;
@@ -5687,6 +5707,16 @@ footer .blog-feed li a {
   border: 1px solid #CDCDCD;
   max-width: 500px;
 }
+.markdown-doc-styling p,
+.markdown-doc-styling pre {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.markdown-doc-styling ol,
+.markdown-doc-styling ul {
+  margin-left: 40px;
+  margin-right: 40px;
+}
 .markdown-doc-styling .tour-video-caption {
   text-align: center;
   padding-bottom: 12px;
@@ -5725,6 +5755,16 @@ footer .blog-feed li a {
   margin-bottom: 24px;
   border: 1px solid #CDCDCD;
   max-width: 500px;
+}
+.tour-container .tour-content p,
+.tour-container .tour-content pre {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tour-container .tour-content ol,
+.tour-container .tour-content ul {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .tour-container .tour-content .tour-video-caption {
   text-align: center;
@@ -5775,6 +5815,16 @@ footer .blog-feed li a {
   margin-bottom: 24px;
   border: 1px solid #CDCDCD;
   max-width: 500px;
+}
+.guide-container .guide-content p,
+.guide-container .guide-content pre {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.guide-container .guide-content ol,
+.guide-container .guide-content ul {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .guide-container .guide-content .tour-video-caption {
   text-align: center;
