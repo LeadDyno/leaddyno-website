@@ -6,13 +6,22 @@ nav: guide > installation
 
 ## Installation Instructions
 
+Installing LeadDyno for your site involves four steps:
+
+1. [Setting up a LeadDyno account](#acct)
+2. [Installing Visitor Tracking](#visitor_tracking)
+3. [Configuring Lead Tracking](#lead_tracking)
+4. [Adding Purchase Tracking](#purchase_tracking)
+
+This guide will help you through each step.
+
+<a name="acct"> </a>
 ### Account Setup
 
 The first step in installing LeadDyno is to sign up for an account [here](https://app.leaddyno.com/users/sign_up)
 then get your public and private keys via [Your Account Page](https://app.leaddyno.com/settings/account).
 
 <a class="docs-anchor" id='visitor_tracking'>&nbsp;</a>
-
 ### Visitor Tracking
 
 To get visitor tracking going, add the following code each page on your site:
@@ -95,7 +104,7 @@ Purchase tracking can be done in one of three ways:
 
 #### Using Integrations
 
-If you are using a billing system that we integrate with purchase tracking is very simple:
+If you are using a billing system that we integrate with, purchase tracking is very simple:
 
 * [Paypal Integration Guide](/guide/paypal-integration-guide.html)
 * [Stripe Integration Guide](/guide/stripe-integration-guide.html)

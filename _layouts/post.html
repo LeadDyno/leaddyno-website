@@ -7,10 +7,10 @@ layout: default
     <div class="span12">
       <div class="blog-container">
         <div class="blog-title">
-          {{ page.title }}
+          <img src="{% gravatar post.author %}" class="img-circle"> <a href="{{ post.url }}">{{ page.title }}</a>
         </div>
         <div class="blog-author">
-          Author : {{ page.author }}
+          Author : {{ page.author }} | {{ page.date || date: "%B %d, %Y" }}
         </div>
         <div class="blog-content">
           {{content}}

@@ -9,13 +9,16 @@ title:  "The LeadDyno Blog"
     <div class="span12">
       {% for post in site.posts %}
       <div class="blog-preview">
-        <h3><span><img style="display: inline-block" src="{% gravatar post.author %}" class="img-circle"> <a
-          href="{{ post.url }}">{{ post.title }}</a></span></h3>
-        <hr/>
+        <div class="blog-title">
+          <img src="{% gravatar post.author %}" class="img-circle"> <a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+        <div class="blog-author">
+          Author : {{ post.author }} | {{ post.date || date: "%B %d, %Y" }}
+        </div>
+
         {{ post.excerpt }}
 
-        <hr/>
-        <div class="clearfix">
+        <div class="blog-nav">
           <a class="pull-left btn btn-success" href="{{ post.url }}">Read More &raquo; </a>
         </div>
       </div>
