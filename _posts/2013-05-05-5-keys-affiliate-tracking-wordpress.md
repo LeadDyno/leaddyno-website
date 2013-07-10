@@ -55,7 +55,7 @@ LeadDyno’s **Social Content** portal provides you with a one stop shop for pos
 email content, articles, and social media copy ready for immediate affiliate broadcast via Email, Twitter, Facebook,
 LinkedIn, and Google Plus.
 
-![affiliate tracking social media](http://leaddyno.com/wp-content/uploads/2013/03/social.png)
+![affiliate tracking social media](/img/social.png)
 
 ### 4) Weekly Update Emails for Affiliates
 

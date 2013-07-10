@@ -49,9 +49,11 @@
           <a class="brand" href="/"><img src='/img/ld32px.png'> LeadDyno</a>
           <ul class="nav">
             <li class="{% active tour %}">
+              <!--suppress HtmlUnknownTarget -->
               <a href="/tour/affiliate-tracking-software.html">Product Tour</a>
             </li>
             <li class="{% active guide %}">
+              <!--suppress HtmlUnknownTarget -->
               <a href="/guide/installation.html">User Guide</a>
             </li>
             <li class="{% active pricing %}">
@@ -62,7 +64,7 @@
             </li>
           </ul>
           <ul class="nav pull-right">
-            <a href="http://app.leaddyno.com/users/sign_in" class="btn btn-small btn-success">
+            <a href="https://app.leaddyno.com/users/sign_in" class="btn btn-small btn-success">
               <strong>Already a User? Log In!</strong>
             </a>
           </ul>
@@ -87,20 +89,20 @@
               your future spending. You can also setup an affiliate / reseller program in just minutes.</p>
 
             <div class="pagination-centered">
-              <a rel="tooltip" title="RSS" href="http://leaddyno.com/blog/">
-                <img alt="RSS" src="http://leaddyno.com/wp-content/themes/leaddyno-wp-theme/img/social_icons/rss.png">
+              <a rel="tooltip" title="RSS" href="/blog">
+                <img alt="RSS" src="/img/social_icons/rss.png">
               </a>
               <a rel="tooltip" title="Twitter" href="http://twitter.com/leaddyno">
                 <img alt="Twitter"
-                     src="http://leaddyno.com/wp-content/themes/leaddyno-wp-theme/img/social_icons/twitter.png">
+                     src="/img/social_icons/twitter.png">
               </a>
               <a rel="tooltip" title="Facebook" href="http://www.facebook.com/pages/Leaddyno/147330765427957">
                 <img alt="Facebook"
-                     src="http://leaddyno.com/wp-content/themes/leaddyno-wp-theme/img/social_icons/facebook.png">
+                     src="/img/social_icons/facebook.png">
               </a>
               <a rel="tooltip" title="LinkedIn" href="http://www.linkedin.com/company/2983450">
                 <img alt="LinkedIn"
-                     src="http://leaddyno.com/wp-content/themes/leaddyno-wp-theme/img/social_icons/linkedin.png">
+                     src="/img/social_icons/linkedin.png">
               </a>
             </div>
           </div>
@@ -109,26 +111,23 @@
             <h2>Product Tour &amp; Tutorials</h2>
             <ul class="unstyled">
               <li>
-                <a href="http://leaddyno.com/affiliate-tracking-software/">
+                <!--suppress HtmlUnknownTarget -->
+                <a href="/tour/affiliate-tracking-software/">
                   Setup an Affiliate / Reseller Program
                 </a>
               </li>
               <li>
-                <a href="http://leaddyno.com/affiliate-tracking-software/affiliate-tracking-sales-paypal/">
-                  Track and Pay Affiliates
-                </a>
-              </li>
-              <li>
-                <a href="http://leaddyno.com/online-marketing-software/">
+                <!--suppress HtmlUnknownTarget -->
+                <a href="/tour/pay-per-click-conversion-tracking/">
                   Measure the ROI of Your Online Advertising
                 </a>
               </li>
               <li>
-                <a href="http://leaddyno.com/online-marketing-software/">
+                <a href="/tour/affiliate-tracking-software/">
                   Tracking Clicks, Leads &amp; Conversions
                 </a>
               </li>
-              <li><a href="http://leaddyno.com/online-marketing-software/">
+              <li><a href="/tour/affiliate-tracking-software/">
                 Trace Sales Back to Their Original Source</a>
               </li>
             </ul>
@@ -141,7 +140,9 @@
             <ul class="unstyled blog-feed">
               {% for post in site.posts limit: 3%}
               <li>
+                <!--suppress HtmlUnknownTarget -->
                 <img src="{% gravatar post.author %}" class="img-circle">
+                <!--suppress HtmlUnknownTarget -->
                 <a href="{{ post.url }}">{{ post.title }}</a>
               </li>
               {% endfor %}
@@ -175,7 +176,8 @@
     <!-- Let the javascript shit-show commence! -->
 
     <!-- Olark -->
-    <script type='text/javascript'>/*{literal}<![CDATA[*/window.olark||(function(i){var e=window,h=document,a=e.location.protocol=="https:"?"https:":"http:",g=i.name,b="load";(function(){e[g]=function(){(c.s=c.s||[]).push(arguments)};var c=e[g]._={},f=i.methods.length; while(f--){(function(j){e[g][j]=function(){e[g]("call",j,arguments)}})(i.methods[f])} c.l=i.loader;c.i=arguments.callee;c.f=setTimeout(function(){if(c.f){(new Image).src=a+"//"+c.l.replace(".js",".png")+"&"+escape(e.location.href)}c.f=null},20000);c.p={0:+new Date};c.P=function(j){c.p[j]=new Date-c.p[0]};function d(){c.P(b);e[g](b)}e.addEventListener?e.addEventListener(b,d,false):e.attachEvent("on"+b,d); (function(){function l(j){j="head";return["<",j,"></",j,"><",z,' onload="var d=',B,";d.getElementsByTagName('head')[0].",y,"(d.",A,"('script')).",u,"='",a,"//",c.l,"'",'"',"></",z,">"].join("")}var z="body",s=h[z];if(!s){return setTimeout(arguments.callee,100)}c.P(1);var y="appendChild",A="createElement",u="src",r=h[A]("div"),G=r[y](h[A](g)),D=h[A]("iframe"),B="document",C="domain",q;r.style.display="none";s.insertBefore(r,s.firstChild).id=g;D.frameBorder="0";D.id=g+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){D.src="javascript:false"} D.allowTransparency="true";G[y](D);try{D.contentWindow[B].open()}catch(F){i[C]=h[C];q="javascript:var d="+B+".open();d.domain='"+h.domain+"';";D[u]=q+"void(0);"}try{var H=D.contentWindow[B];H.write(l());H.close()}catch(E){D[u]=q+'d.write("'+l().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}c.P(2)})()})()})({loader:(function(a){return "static.olark.com/jsclient/loader0.js?ts="+(a?a[1]:(+new Date))})(document.cookie.match(/olarkld=([0-9]+)/)),name:"olark",methods:["configure","extend","declare","identify"]});
+    <script type='text/javascript'>/*{literal}<![CDATA[*///noinspection JSUnresolvedVariable
+    window.olark||(function(i){var e=window,h=document,a=e.location.protocol=="https:"?"https:":"http:",g=i.name,b="load";(function(){e[g]=function(){(c.s=c.s||[]).push(arguments)};var c=e[g]._={},f=i.methods.length; while(f--){(function(j){e[g][j]=function(){e[g]("call",j,arguments)}})(i.methods[f])} c.l=i.loader;c.i=arguments.callee;c.f=setTimeout(function(){if(c.f){(new Image).src=a+"//"+c.l.replace(".js",".png")+"&"+escape(e.location.href)}c.f=null},20000);c.p={0:+new Date};c.P=function(j){c.p[j]=new Date-c.p[0]};function d(){c.P(b);e[g](b)}e.addEventListener?e.addEventListener(b,d,false):e.attachEvent("on"+b,d); (function(){function l(j){j="head";return["<",j,"></",j,"><",z,' onload="var d=',B,";d.getElementsByTagName('head')[0].",y,"(d.",A,"('script')).",u,"='",a,"//",c.l,"'",'"',"></",z,">"].join("")}var z="body",s=h[z];if(!s){return setTimeout(arguments.callee,100)}c.P(1);var y="appendChild",A="createElement",u="src",r=h[A]("div"),G=r[y](h[A](g)),D=h[A]("iframe"),B="document",C="domain",q;r.style.display="none";s.insertBefore(r,s.firstChild).id=g;D.frameBorder="0";D.id=g+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){D.src="javascript:false"} D.allowTransparency="true";G[y](D);try{D.contentWindow[B].open()}catch(F){i[C]=h[C];q="javascript:var d="+B+".open();d.domain='"+h.domain+"';";D[u]=q+"void(0);"}try{var H=D.contentWindow[B];H.write(l());H.close()}catch(E){D[u]=q+'d.write("'+l().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}c.P(2)})()})()})({loader:(function(a){return "static.olark.com/jsclient/loader0.js?ts="+(a?a[1]:(+new Date))})(document.cookie.match(/olarkld=([0-9]+)/)),name:"olark",methods:["configure","extend","declare","identify"]});
     </script>
     <!-- End Olark -->
 
