@@ -23,7 +23,7 @@ Here’s an example of an Adwords campaign, compared with a banner ad campaign (
 
 *Our Google Adwords campaign (top row) trumps the following three when comparing leads, and especially conversions.*
 
-[More: PPC & Banner Ad Conversion Tracking](http://leaddyno.com/pay-per-click-tracking-software/)
+[More: PPC & Banner Ad Conversion Tracking](/tour/pay-per-click-tracking-software.html)
 
 ###Email Conversion Tracking
 
@@ -43,8 +43,8 @@ You can setup lead follow up emails that are sent automatically to your new lead
 
 ###More Affiliate & Online Marketing Features
 
-* [More on Affiliate Management](http://leaddyno.com/affiliate-tracking-software/affiliate-management/) - The Affiliate Dashboard, setting up welcome and weekly emails to affiliates, and paying affiliate commissions.
-* [Social Media Content Sharing](http://leaddyno.com/affiliate-tracking-software/social-media-content-sharing/) – Coordinating affiliate broadcasts via email and social mediums like Facebook and Twitter.
+* [More on Affiliate Management](/tour/affiliate-tracking-software.htmlaffiliate-management/) - The Affiliate Dashboard, setting up welcome and weekly emails to affiliates, and paying affiliate commissions.
+* [Social Media Content Sharing](/tour/social-media-content-sharing.html) – Coordinating affiliate broadcasts via email and social mediums like Facebook and Twitter.
 
 <div class="pagination-centered">
   <a class="btn btn-primary btn-large" href="https://app.leaddyno.com/signup">

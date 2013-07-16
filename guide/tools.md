@@ -66,12 +66,12 @@ Here is example form code:
     &lt;input type="hidden" name="key" value="<span class="pub-key-rep">YOUR_PUBLIC_KEY</span>"/>
     &lt;strong>Enter Your Email:&lt;/strong> &lt;input type="text" name="email">
     &lt;br/>
-    &lt;input style="background: white url('http://leaddyno.com/images/social/32px/Facebook.png'); margin-bottom: -10px; border: 0; height: 32px; width: 32px; line-height: 999px; overflow: hidden; font-size: 0;"
+    &lt;input style="background: white url('http://www.leaddyno.com/images/social/32px/Facebook.png'); margin-bottom: -10px; border: 0; height: 32px; width: 32px; line-height: 999px; overflow: hidden; font-size: 0;"
               name="type"
               value="facebook"
               type="submit"
               alt="Share on Facebook" />
-    &lt;input style="background: white url('http://leaddyno.com/images/social/32px/Twitter.png')"
+    &lt;input style="background: white url('http://wwww.leaddyno.com/images/social/32px/Twitter.png')"
               name="type"
               value="twitter"
               type="submit"

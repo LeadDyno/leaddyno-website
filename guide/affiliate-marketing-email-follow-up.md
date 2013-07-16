@@ -23,7 +23,7 @@ Use the [**Affiliate Welcome Email Setup**](https://app.leaddyno.com/affiliate_e
 new affiliates - this will be delivered to them automatically when they sign up for your affiliate program.
 
 Use the dynamic content variables listed above the email editor to include their affiliate link, as well as the link to
-their [**Affiliate Dashboard**](http://leaddyno.com/affiliate-dashboard/), where they can view their progress in
+their [**Affiliate Dashboard**](/guide/affiliate-dashboard.html), where they can view their progress in
 real-time.
 
 We have a successful template included in this section to help get you started.
@@ -37,7 +37,7 @@ The [**Affiliate Weekly Email Setup**](https://app.leaddyno.com/affiliate_emails
 
 Use the dynamic content variables to show your affiliates their statistics for the past week. You can also use these
 variables to remind them of their affiliate link, and where they can access their
-[**Affiliate Dashboard**](http://leaddyno.com/affiliate-dashboard/v) for this information in real-time.
+[**Affiliate Dashboard**](/guide/affiliate-dashboard.html) for this information in real-time.
 
 We have a successful template included in this section to help get you started.
 

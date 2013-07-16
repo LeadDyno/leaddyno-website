@@ -6,7 +6,7 @@ nav: tour > affiliate-dashboard
 
 ##Affiliate Management
 
-Affiliates can track their own progress in real-time via their [Affiliate Dashboard](http://leaddyno.com/affiliate-dashboard/).  You will provide them with a unique link to their dashboard, so that they can monitor their visitors, leads, customers, and payments.
+Affiliates can track their own progress in real-time via their [Affiliate Dashboard](/guide/affiliate-dashboard.html).  You will provide them with a unique link to their dashboard, so that they can monitor their visitors, leads, customers, and payments.
 
 <div>
 	<iframe width="640" height="360" src="http://www.youtube.com/embed/SJkMagcwHBE?feature=player_embedded" frameborder="0">
@@ -35,7 +35,7 @@ Affiliates can access their unique referral link below the welcome message in th
 
 ![affiliate_dashboard_social_content_links](/img/affiliate_dashboard_social_content_links_pt2.png)
 
-You can provide the initial promotional copy for each medium via the [Social Content](http://leaddyno.com/affiliate-social-media-marketing/) section.
+You can provide the initial promotional copy for each medium via the [Social Content](/guide/affiliate-social-media-marketing.html) section.
 
 ###Additional Promotional Materials
 
@@ -47,11 +47,11 @@ Promotional materials for websites – such as banner ads – are located under 
 
 Send a customized welcome email to new affiliates as they come onboard. Also, configure a weekly progress email that is sent automatically to update your affiliates on their leads and sales, keeping them actively engaged in the promotion of your product.
 
-Use the dynamic content variables to show your affiliates their statistics for the past week. You can also use these variables to remind them of their affiliate link, and where they can access their [Affiliate Dashboard](http://leaddyno.com/affiliate-dashboard/) for this information in real-time.
+Use the dynamic content variables to show your affiliates their statistics for the past week. You can also use these variables to remind them of their affiliate link, and where they can access their [Affiliate Dashboard](/guide/affiliate-dashboard.html) for this information in real-time.
 
 ![affiliate_marketing_weekly_email](/img/affiliate_marketing_weekly_email_pt2.png)
 
-[More: Affiliate Email Welcome & Weekly Follow Up](http://leaddyno.com/affiliate-marketing-email-follow-up/)
+[More: Affiliate Email Welcome & Weekly Follow Up](/guide/affiliate-marketing-email-follow-up.html)
 
 ###Pay Affiliate Commissions Quickly and Easily
 
@@ -60,9 +60,9 @@ Finally, you can pay your monthly or quarterly affiliate commissions with just a
 ![affiliate_commissions_payment_report](/img/affiliate_commissions_payment_report_pt2.png)
 
 ####More Affiliate & Online Marketing Features
-* [Affiliate Tracking Software Overview](http://leaddyno.com/affiliate-tracking-software/)  - Get your affiliates setup and sending you traffic in minutes.
-* [Social Media Content Sharing](http://leaddyno.com/affiliate-tracking-software/social-media-content-sharing/) – Coordinating affiliate broadcasts via email and social mediums like Facebook and Twitter.
-* [Online Marketing Tracking](http://leaddyno.com/online-marketing-software/pay-per-click-conversion-tracking/) – Track your pay-per-click investments (ie. Google Adwords) alongside your affiliate program.
+* [Affiliate Tracking Software Overview](/tour/affiliate-tracking-software.html)  - Get your affiliates setup and sending you traffic in minutes.
+* [Social Media Content Sharing](/tour/social-media-content-sharing.html) – Coordinating affiliate broadcasts via email and social mediums like Facebook and Twitter.
+* [Online Marketing Tracking](/tour/pay-per-click-conversion-tracking.html) – Track your pay-per-click investments (ie. Google Adwords) alongside your affiliate program.
 
 <div class="pagination-centered">
   <a class="btn btn-primary btn-large" href="https://app.leaddyno.com/signup">

@@ -44,11 +44,11 @@ website via their **unique referral link**, which tracks the visitors, leads, an
 
 LeadDyno tracks every sale back to its original lead source – no matter how much time passes between the conversion and its initial click – so that you always know exactly where every lead and customer came from.
 
-**Read More: [LeadDyno User Guide for New Affiliate Setup](http://leaddyno.com/affiliate_management/)**
+**Read More: [LeadDyno User Guide for New Affiliate Setup](/guide/affiliate-management.html)**
 
 ###Affiliate Dashboard for Real-Time Progress Updates
 
-Your affiliates can track their own progress in real-time via their [Affiliate Dashboard](http://leaddyno.com/affiliate-dashboard/).  You will provide them with a unique link to their dashboard, so that they can monitor the  visitors, leads, customers, and commissions they have received credit for.
+Your affiliates can track their own progress in real-time via their [Affiliate Dashboard](/guide/affiliate-dashboard.thml).  You will provide them with a unique link to their dashboard, so that they can monitor the  visitors, leads, customers, and commissions they have received credit for.
 
 ![affiliate_dashboard_progress_payments](/img/affiliate_dashboard_progress_payments_pt1.png)
 
@@ -58,26 +58,26 @@ The Affiliate Dashboard is an important resource for keeping affiliates engaged 
 
 ###Affiliate Promotional Materials
 
-The [Affiliate Dashboard](http://leaddyno.com/affiliate-dashboard/) is also the place where your affiliates can access promotional and social media materials for their own marketing efforts.  Here, they can:
+The [Affiliate Dashboard](/guide/affiliate-dashboard.html) is also the place where your affiliates can access promotional and social media materials for their own marketing efforts.  Here, they can:
 
 * Access their affiliate link.
 * Download promotional materials (such as banner ads) for their website.
 * Broadcast their link to social media channels like Facebook, Twitter, LinkedIn, and Google Plus.
 * Generate a promotional email to send to their list with a single click.
 
-We highlight these features in more details in our [Affiliate Management](http://leaddyno.com/affiliate-tracking-software/affiliate-management/) section.
+We highlight these features in more details in our [Affiliate Management](/tour/affiliate-tracking-software.htmlaffiliate-management/) section.
 
 ![affiliate_dashboard_promo_materials](/img/affiliate_dashboard_promo_materials_pt1.png)
 
 *Promotional materials for affiliates’ websites have their unique affiliate link embedded.*
 
-**Read More: [LeadDyno User Guide for Affiliate Dashboard Configuration](http://leaddyno.com/affiliate-dashboard/)**
+**Read More: [LeadDyno User Guide for Affiliate Dashboard Configuration](/guide/affiliate-dashboard.html)**
 
 ####More Affiliate & Online Marketing Features
 
-* [More on Affiliate Management](http://leaddyno.com/affiliate-tracking-software/affiliate-management/) – The Affiliate Dashboard, setting up welcome and weekly emails to affiliates, and paying affiliate commissions.
-* [Social Media Content Sharing](http://leaddyno.com/affiliate-tracking-software/social-media-content-sharing/) – Coordinating affiliate broadcasts via email and social mediums like Facebook and Twitter.
-* [Online Marketing Tracking](http://leaddyno.com/online-marketing-software/pay-per-click-conversion-tracking/) – Track your pay-per-click investments (ie. Google Adwords) alongside your affiliate program.
+* [More on Affiliate Management](/tour/affiliate-tracking-software.htmlaffiliate-management/) – The Affiliate Dashboard, setting up welcome and weekly emails to affiliates, and paying affiliate commissions.
+* [Social Media Content Sharing](/tour/social-media-content-sharing.html) – Coordinating affiliate broadcasts via email and social mediums like Facebook and Twitter.
+* [Online Marketing Tracking](/tour/pay-per-click-conversion-tracking.html) – Track your pay-per-click investments (ie. Google Adwords) alongside your affiliate program.
 
 <div class="pagination-centered">
   <a class="btn btn-primary btn-large" href="https://app.leaddyno.com/signup">

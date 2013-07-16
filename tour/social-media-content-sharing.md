@@ -61,8 +61,8 @@ An extra benefit of LinkedIn is that its emails get delivered – and read – b
 
 ###More Affiliate & Online Marketing Features
 
-* [Affiliate Tracking Software Overview](http://leaddyno.com/affiliate-tracking-software/)  - Get your affiliates setup and sending you traffic in minutes.
-* [Online Marketing Tracking](http://leaddyno.com/online-marketing-software/pay-per-click-conversion-tracking/) – Track your pay-per-click investments (ie. Google Adwords) alongside your affiliate program.
+* [Affiliate Tracking Software Overview](/tour/affiliate-tracking-software.html)  - Get your affiliates setup and sending you traffic in minutes.
+* [Online Marketing Tracking](/tour/pay-per-click-conversion-tracking.html) – Track your pay-per-click investments (ie. Google Adwords) alongside your affiliate program.
 
 <div class="pagination-centered">
   <a class="btn btn-primary btn-large" href="https://app.leaddyno.com/signup">
