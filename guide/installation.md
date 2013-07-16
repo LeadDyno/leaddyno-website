@@ -107,7 +107,7 @@ Purchase tracking can be done in one of three ways:
 If you are using a billing system that we integrate with, purchase tracking is very simple:
 
 * [Paypal Integration Guide](/guide/paypal-integration-guide.html)
-* [Stripe Integration Guide](/guide/stripe-integration-guide.html)
+* [Recurly Integration Guide](/guide/recurly-integration-guide.html)
 
 #### The REST API
 
