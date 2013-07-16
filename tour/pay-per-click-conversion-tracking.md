@@ -43,7 +43,7 @@ You can setup lead follow up emails that are sent automatically to your new lead
 
 ###More Affiliate & Online Marketing Features
 
-* [More on Affiliate Management](/tour/affiliate-tracking-software.htmlaffiliate-management/) - The Affiliate Dashboard, setting up welcome and weekly emails to affiliates, and paying affiliate commissions.
+* [More on Affiliate Management](/guide/affiliate-management.html) - The Affiliate Dashboard, setting up welcome and weekly emails to affiliates, and paying affiliate commissions.
 * [Social Media Content Sharing](/tour/social-media-content-sharing.html) – Coordinating affiliate broadcasts via email and social mediums like Facebook and Twitter.
 
 <div class="pagination-centered">

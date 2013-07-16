@@ -75,7 +75,7 @@ We highlight these features in more details in our [Affiliate Management](/tour/
 
 ####More Affiliate & Online Marketing Features
 
-* [More on Affiliate Management](/tour/affiliate-tracking-software.htmlaffiliate-management/) – The Affiliate Dashboard, setting up welcome and weekly emails to affiliates, and paying affiliate commissions.
+* [More on Affiliate Management](/guide/affiliate-management.html) – The Affiliate Dashboard, setting up welcome and weekly emails to affiliates, and paying affiliate commissions.
 * [Social Media Content Sharing](/tour/social-media-content-sharing.html) – Coordinating affiliate broadcasts via email and social mediums like Facebook and Twitter.
 * [Online Marketing Tracking](/tour/pay-per-click-conversion-tracking.html) – Track your pay-per-click investments (ie. Google Adwords) alongside your affiliate program.
 
