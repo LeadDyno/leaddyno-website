@@ -89,7 +89,7 @@ Replace **YOUR_PUBLIC_KEY** with your public API key found on the [LeadDyno Dash
 
 ### Conclusion
 
-LeadDyno is able to seemlessly integrate with both one time and subscription PayPal buttons with no changes to the html
+LeadDyno is able to seamlessly integrate with both one time and subscription PayPal buttons with no changes to the html
 of the button. The only coordination between the button and LeadDyno is the Item ID (for one time buttons) or the
 Subscription ID (for subscription buttons) in the PayPal button editor which needs to match a LeadDyno compensation plan.
 If the default LeadDyno compensation plan is the desired plan to be used with the transaction, then even this coordination is not required.
