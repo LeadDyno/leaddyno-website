@@ -45,7 +45,7 @@ Affiliates can access their unique referral link below the welcome message in th
 
 ![affiliate_dashboard_affiliate_link_ug2.png](/img/affiliate_dashboard_affiliate_link_ug2.png)
 
-Remember, you can provide the initial promotional copy for each medium via the [Social Content](http://leaddyno.com/affiliate-social-media-marketing/) section.
+Remember, you can provide the initial promotional copy for each medium via the [Social Content](/guide/affiliate-social-media-marketing.html) section.
 
 ### Tracking Progress and Payments
 
