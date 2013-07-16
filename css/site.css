@@ -5876,3 +5876,6 @@ footer .blog-feed li a {
   background-color: #a0a0a0;
   color: #FFFFFF;
 }
+.spaced-list li {
+  margin-top: 20px;
+}
