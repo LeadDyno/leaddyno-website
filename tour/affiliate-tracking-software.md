@@ -65,7 +65,7 @@ The [Affiliate Dashboard](/guide/affiliate-dashboard.html) is also the place whe
 * Broadcast their link to social media channels like Facebook, Twitter, LinkedIn, and Google Plus.
 * Generate a promotional email to send to their list with a single click.
 
-We highlight these features in more details in our [Affiliate Management](/tour/affiliate-tracking-software.htmlaffiliate-management/) section.
+We highlight these features in more details in our [Affiliate Management](/tour/affiliate-tracking-software.html) section.
 
 ![affiliate_dashboard_promo_materials](/img/affiliate_dashboard_promo_materials_pt1.png)
 
