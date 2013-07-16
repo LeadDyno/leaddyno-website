@@ -16,7 +16,7 @@ and/or app) if we can be of assistance.
 
 ### 1) The New Affiliate Dashboard: Real-Time Progress Updates
 
-Your affiliates can track their own progress in real-time via their **[Affiliate Dashboard](http://leaddyno.com/affiliate-dashboard/)**.
+Your affiliates can track their own progress in real-time via their **[Affiliate Dashboard](/guide/affiliate-dashboard.html)**.
 You will provide them with a unique link to their dashboard, so that they can monitor the  visitors, leads, customers,
 and commissions they have received credit for.
 
@@ -30,7 +30,7 @@ Many LeadDyno users advertise this capability front and center when they bring o
 
 ### 2) Affiliate Promotional Materials
 
-The **[Affiliate Dashboard](http://leaddyno.com/affiliate-dashboard/)** is also the place where your
+The **[Affiliate Dashboard](/guide/affiliate-dashboard.html)** is also the place where your
 affiliates can access promotional and social media materials for their own marketing efforts.  
 
 Here, they can:
@@ -43,7 +43,7 @@ Here, they can:
 ![Affiliate Dashboard](/img/Affiliate-Dashboard-Promo-Materials.png)
 
 We highlight these features in more details in our
-**[Affiliate Management](http://leaddyno.com/affiliate-tracking-software/affiliate-management/)** section.
+**[Affiliate Management](/guide/affiliate-management.html)** section.
 
 ### 3) Social Media Content Sharing
 
