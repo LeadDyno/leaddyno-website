@@ -70,18 +70,18 @@ watch particular inputs for a lead email:
   LeadDyno.watch("#email"); // will watch fields with the ID 'email'
 </pre>
 
-#### Explicit client-side registerLead()
+#### Explicit client-side recordLead()
 
-If you want more control over when the lead email is captured, you can call the `registerLead()` function
+If you want more control over when the lead email is captured, you can call the `recordLead()` function
 in your own client site event listeners (e.g. on a form.submit() event handler):
 
 <pre class="prettyprint">
   $('#my-form').submit(function(){
-      LeadDyno.registerLead($("#email").val());
+      LeadDyno.recordLead($("#email").val());
     });
 </pre>
 
-#### Template-based registerLead()
+#### Template-based recordLead()
 
 If you are using a templating system like PHP or ERB in Rails, you can use a mix of client and server side code.
 Here is some example PHP:
