@@ -226,21 +226,7 @@
       LeadDyno.key = '9d7969b29fee56ee8ab1d747c1b41a2cd7a5e1ce';
       LeadDyno.domain = 'leaddyno.com';
       LeadDyno.recordVisit();
-
-      $(function(){
-        $("#start_guide_btn").click(function () {
-          var emailFromForm = $("#start_guide_email").val();
-          if (!/\S+@\S+.\S+/.test(emailFromForm)) {
-            alert('Please enter a valid email');
-            return false;
-          }
-          $("#start_guide_div").fadeOut('slow', function () {
-            $("#start_guide_success").fadeIn('slow');
-          });
-          LeadDyno.recordLead(emailFromForm);
-          return false;
-        });
-      });
+      LeadDyno.autoWatch();
     </script>
 
   </body>
