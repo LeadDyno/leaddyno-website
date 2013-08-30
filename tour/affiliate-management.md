@@ -9,7 +9,7 @@ nav: tour > affiliate-dashboard
 Affiliates can track their own progress in real-time via their [Affiliate Dashboard](/guide/affiliate-dashboard.html).  You will provide them with a unique link to their dashboard, so that they can monitor their visitors, leads, customers, and payments.
 
 <div>
-	<iframe width="640" height="360" src="http://www.youtube.com/embed/SJkMagcwHBE?feature=player_embedded" frameborder="0">
+	<iframe width="640" height="360" src="http://www.youtube.com/embed/kfSOxmiT2XM?feature=player_embedded" frameborder="0">
 	</iframe>
 </div>
 
