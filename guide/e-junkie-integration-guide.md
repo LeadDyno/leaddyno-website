@@ -47,7 +47,23 @@ where **YOUR_PRIVATE_KEY** is replaced with your LeadDyno Private Key, available
 
 When you are done, click the **Next** button, then the **Submit** button.
 
-At this point, your product offering will be integrated with LeadDyno.
+#### Step 3 - Include LeadDyno Tracking Info In Your Product Link
+
+The final step is to pass LeadDyno's tracking information through to E-Junkie.
+
+To do so, add the following code to the E-Junkie web link your users use to purchase your product:
+
+**&custom=\{\{leaddyno.visit.id}}**
+
+So the following E-Junkie link:
+
+**https://www.e-junkie.com/ecom/gb.php?i=P1&c=cart&cl=123**
+
+Would need to be modified to
+
+**https://www.e-junkie.com/ecom/gb.php?i=P1&c=cart&cl=123&custom=\{\{leaddyno.visit.id}}**
+
+With this change, your product offering will now be integrated with LeadDyno.
 
 ### Conclusion
 
