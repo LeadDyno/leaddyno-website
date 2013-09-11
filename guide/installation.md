@@ -4,22 +4,30 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > installation
 ---
 
-## Installation Instructions
-
-Installing LeadDyno for your site involves four steps:
-
-1. [Setting up a LeadDyno account](#acct)
-2. [Installing Visitor Tracking](#visitor_tracking)
-3. [Configuring Lead Tracking](#lead_tracking)
-4. [Adding Purchase Tracking](#purchase_tracking)
-
-This guide will help you through each step.
+## Installing LeadDyno
 
 <a name="acct"> </a>
-### Account Setup
+### Pre-Installation: Account Setup
 
 The first step in installing LeadDyno is to sign up for an account [here](https://app.leaddyno.com/users/sign_up)
 then get your public and private keys via [Your Account Page](https://app.leaddyno.com/settings/account).
+
+### Installation
+
+Installing LeadDyno for your site typically involves three steps:
+
+1. [Installing Visitor Tracking](#visitor_tracking)
+2. [Configuring Lead Tracking](#lead_tracking)
+3. [Adding Purchase Tracking](#purchase_tracking)
+
+This guide will help you through each step.
+
+<div class="alert alert-info">
+  <strong>Note:</strong> If you are using a platform that we integrate with, such as
+  <a href="paypal-integration-guide.html">PayPal</a> or
+  <a href="shopify-integration-guide.html">Shopify</a>
+  your installation may be much simpler.
+</div>
 
 <a class="docs-anchor" id='visitor_tracking'> </a>
 ### Visitor Tracking
@@ -70,7 +78,7 @@ watch particular inputs for a lead email:
   LeadDyno.watch("#email"); // will watch fields with the ID 'email'
 </pre>
 
-#### Explicit client-side recordLead()
+#### RecordLead
 
 If you want more control over when the lead email is captured, you can call the `recordLead()` function
 in your own client site event listeners (e.g. on a form.submit() event handler):
@@ -80,17 +88,6 @@ in your own client site event listeners (e.g. on a form.submit() event handler):
       LeadDyno.recordLead($("#email").val());
     });
 </pre>
-
-#### Template-based recordLead()
-
-If you are using a templating system like PHP or ERB in Rails, you can use a mix of client and server side code.
-Here is some example PHP:
-
-<pre>
-  LeadDyno.recordLead("&lt;?php echo fetchUserDetails($useraccess)["Email"] ?>");
-</pre>
-
-A typical installation would place this on the post-signup landing page.
 
 <a class="docs-anchor" id='purchase_tracking'> </a>
 
@@ -111,10 +108,10 @@ If you are using a billing system that we integrate with, purchase tracking is v
 
 #### The REST API
 
-If you have a server-side environment and are not using one of the systems we integrate with, the best
-option is to use LeadDyno's REST API.
+If you are not using one of the systems we integrate with, the next option is to use LeadDyno's REST API.
 
-You will do `POST`s and `DELETE`s to `http://api.leaddyno.com/v1/purchases` to create and cancel purchases, respectively.
+You will issue `POST` and `DELETE` requests to the `http://api.leaddyno.com/v1/purchases` URL to create and cancel
+purchases, respectively.
 
 Here is example code in a variety of languages:
 
@@ -228,8 +225,8 @@ docs.
 
 #### Using Javascript
 
-To track purchases via the Javascript library, add the following javascript code to the 'Thank You' page
-*after* a user has purchased:
+Finally, you may track purchases via the Javascript library.  You can do this by adding the following javascript code to
+the 'Thank You' page *after* a user has purchased:
 
 <pre>
   LeadDyno.recordPurchase();
@@ -241,10 +238,9 @@ and, to record cancellations, invoke the following javascript:
   LeadDyno.recordCancellation();
 </pre>
 
-<div class="alert alert-info">
-  <strong>Note:</strong> Purchases created and cancelled via the javascript library will need to be approved
-  via the <a href="https://app.leaddyno.com/purchases/approve">Pending Purchases</a> and
-  <a href="https://app.leaddyno.com/purchases/approve_cancellations">Pending Cancellations</a>
-  UIs before they will be completed, in order to prevent fraud.
+<div class="alert alert-danger">
+  <strong>Note:</strong> Purchases created via the javascript API will need to be approved
+  via the <a href="https://app.leaddyno.com/purchases">Purchases</a> Page before they are credited to affiliates,
+  in order to prevent fraudulent purchase activity.
 </div>
 

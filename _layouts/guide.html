@@ -9,55 +9,47 @@ layout: default
         <ul class="nav nav-list">
 
           <li class="nav-header">User Guide</li>
+          <li class="{% active introduction %}">
+            <a href="/guide/introduction.html">Introduction</a>
+          </li>
           <li class="{% active installation %}">
-            <a href="/guide/installation.html">Installation</a>
-            <ul class="nav nav-list {% unless installation %}">
-              <li><a href="#overview">Account Setup</a></li>
-              <li><a href="#visitor_tracking">Visitor Tracking</a></li>
-              <li><a href="#lead_tracking">Lead Tracking</a></li>
-              <li><a href="#purchase_tracking">Purchase Tracking</a></li>
-            </ul>
-          </li>
-          <li class="{% active tools %}">
-            <a href="/guide/tools.html">Affiliate Tools</a>
-            <ul class="nav nav-list {% unless tools %}">
-              <li><a href="#affiliate_form">Affiliate Form</a></li>
-              <li><a href="#affiliate_link">Affiliate Link</a></li>
-              <li><a href="#sharing_buttons">Sharing Buttons</a></li>
-            </ul>
-          </li>
-          <li class="{% active affiliate-management %}">
-            <a href="/guide/affiliate-management.html">Affiliate Management</a>
+            <a href="/guide/installation.html">Installing LeadDyno</a>
           </li>
           <li class="{% active affiliate-dashboard %}">
-            <a href="/guide/affiliate-dashboard.html">Affiliate Dashboard</a>
+            <a href="/guide/affiliate-dashboard.html">Customizing Your Affiliate Home Page</a>
           </li>
           <li class="{% active social-content %}">
-            <a href="/guide/affiliate-social-media-marketing.html">Social & Viral Content</a>
+            <a href="/guide/affiliate-social-media-marketing.html">Configuring Social Content</a>
           </li>
-          <li class="{% active affiliate-email %}">
-            <a href="/guide/affiliate-marketing-email-follow-up.html">Affiliate Emails</a>
+          <li class="{% active affiliate-management %}">
+            <a href="/guide/affiliate-management.html">Managing Affiliates</a>
           </li>
           <li class="{% active comp-plan %}">
-            <a href="/guide/affiliate-compensation-plan.html">Affiliate Compensation</a>
+            <a href="/guide/affiliate-compensation-plan.html">Creating Commission Plans</a>
+          </li>
+          <li class="{% active affiliate-email %}">
+            <a href="/guide/affiliate-marketing-email-follow-up.html">Automated Affiliate Emails</a>
           </li>
           <li class="{% active email-tracking %}">
             <a href="/guide/online-marketing-software-email-tracking.html">Online & Email Marketing</a>
           </li>
           <li class="{% active pay-per-click %}">
-            <a href="/guide/pay-per-click-tracking-software.html">Pay Per Click Tracking</a>
+            <a href="/guide/pay-per-click-tracking-software.html">AdWords Effectiveness Tracking</a>
           </li>
           <li class="{% active follow-up %}">
-            <a href="/guide/lead-follow-up-email-software.html">Lead Follow Up</a>
+            <a href="/guide/lead-follow-up-email-software.html">Viral Growth Email Follow Up</a>
+          </li>
+          <li class="{% active tools %}">
+            <a href="/guide/tools.html">LeadDyno Affiliate Tools</a>
           </li>
 
-          <li class="nav-header">Developer Guide</li>
+          <li class="nav-header">Developer Resources</li>
           <li>
             <a href="http://developer.leaddyno.com/js-api.html">Javascript API</a>
             <a href="http://developer.leaddyno.com/rest-api.html">REST API</a>
           </li>
 
-          <li class="nav-header">Integration Guide</li>
+          <li class="nav-header">Integration Guides</li>
           <li class="{% active paypal-integration-guide %}">
             <a href="/guide/paypal-integration-guide.html">Paypal Integration</a>
           </li>
