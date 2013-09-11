@@ -9,8 +9,8 @@ nav: guide > installation
 <a name="acct"> </a>
 ### Pre-Installation: Account Setup
 
-The first step in installing LeadDyno is to sign up for an account [here](https://app.leaddyno.com/users/sign_up)
-then get your public and private keys via [Your Account Page](https://app.leaddyno.com/settings/account).
+Before installing LeadDyno, you must sign up for an account [here](https://app.leaddyno.com/users/sign_up)
+and then get your public and private keys via [Your Account Page](https://app.leaddyno.com/settings/account).
 
 ### Installation
 

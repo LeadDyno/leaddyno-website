@@ -4,7 +4,7 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > introduction
 ---
 
-## LeadDyno Introduction
+## Introduction To LeadDyno
 
 LeadDyno provides you a simple, automated system for running an affiliate program and tracking where your leads
 are coming from.  Getting started can take as little as a few hours and, with our premium plans, LeadDyno
@@ -24,23 +24,23 @@ Below is an overview of what LeadDyno can do for you.
 
 Typically this can all be done quickly by your web developers.
 
-Note that if you are using a platform like [PayPal](paypal-integration-guide.html) or
-[Shopify](shopify-integration-guide.html), you may not need to do all the work above, as LeadDyno provides excellent
-integrations with them.
+<div class="alert alert-info">
+  <strong>Note:</strong> If you are using a platform that we integrate with, such as
+  <a href="paypal-integration-guide.html">PayPal</a> or
+  <a href="shopify-integration-guide.html">Shopify</a>
+  your installation may be much simpler.
+</div>
 
 ### Customizing Your Affiliate Home Page
 
 LeadDyno provides you with a custom Affiliate Home Page, which you can find on your
-[Account Page](https://app.leaddyno.com/settings/account)
+[Account Page](https://app.leaddyno.com/settings/account).
 
-New affiliate can sign up from this page, and existing affiliates can log in to their Affiliate Dashboard, to monitor
-their progress.
+New affiliates can sign up from this page and existing affiliates can log in to their Affiliate Dashboard to monitor
+their progress and share their affiliate link.
 
-You can customize affiliate home page in the [Configure Affiliate Website](https://app.leaddyno.com/content/website_customization)
-page of LeadDyno.
-
-Additionally, you can configure the language that affiliates see on their Dashboard on the
-[Configure Affiliate Dashboard](https://app.leaddyno.com/content/dashboard_customization) page.
+Your Affiliate Home Page is [fully customizable](customizing-your-affiliate-homepage.html) allowing you complete control over the
+brand of your affiliate program.
 
 ### Creating Commission Plans
 
@@ -94,7 +94,9 @@ this is easy when you use LeadDyno Campaigns to track AdWords.
 
 #### Email List Tracking
 
-Another common online marketing channel is via email lists
+Another common online marketing channel is via email lists.  By using a LeadDyno Campaign for each paid email placement
+you purchase, you can see end-to-end click, lead, purchase and cancellation information, allowing you to target
+successful email lists and abandon poor ones.
 
 #### CRM Integration
 

@@ -1,7 +1,7 @@
 ---
 layout: tour
 title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
-nav: tour > affiliate-dashboard
+nav: tour > affiliate-management
 ---
 
 ##Affiliate Management

@@ -1,7 +1,7 @@
 ---
 layout: tour
 title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
-nav: tour > affiliate_management
+nav: tour > pay-per-click-conversion-tracking
 ---
 ##Online Marketing Essentials
 

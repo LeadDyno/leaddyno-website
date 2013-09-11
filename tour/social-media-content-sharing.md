@@ -1,7 +1,7 @@
 ---
 layout: tour
 title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
-nav: tour > affiliate_management
+nav: tour > social-media-content-sharing
 ---
 
 ##Social Media Content Sharing
