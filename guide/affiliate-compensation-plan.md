@@ -4,52 +4,84 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > comp-plan 
 ---
 
-## Affiliate Compensation
+## Affiliate Commission Plans
 
-Here's how to establish your affiliate compensation plans, and also pay your affiliates with one-click using PayPal.
+In order to pay out your affiliates, you will need to define Comission Plans that specify how much an affiliate
+receives for each purchase that they refer.
 
-### Set Up Affiliate Compensation Plans
+### Creating An Affiliate Commission Plan
 
-Click the **Comp Plans** option located under the Affiliates menu to setup a compensation plan.
+Click [Configure Commissions Plans](https://app.leaddyno.com/plans) located under the Affiliates Program menu, and
+click the 'New Commission Plan' button:
 
-![Affiliate Comp](/img/Affiliate-Comp-Menu.png)
+![Affiliate Comp](/img/configure_commission_plans.png)
 
-### Enter Revenue Per Conversion
+### Enter Plan Information
 
-In the top portion of the **New Compensation Plan** form, enter the amount of revenue that you receive per sale.  This
-will be used to calculate your affiliate commissions if you are awarding a percentage of sales.
+Next you will need to enter some basic plan information:
 
-You can create a new plan for each additional product that you sell. 
+![Affiliate Comp](/img/new_commission_plan.png)
 
-![Affiliate Comp](/img/Revenue-Per-Conversion.png)
+#### Customization Options
 
-### Enter Affiliate Compensation
+##### Plan Code
 
-Next you'll define your affiliate compensation.  Use the **+** button on the right to add a line (if, for example, you
-are doing a combination compensation of a one-time reward plus a monthly percentage).
+This is the code for the given plan, and must be unique.  You can use this code to pass in different compensation plans
+when you record a purchase, although many people only have one plan.
 
- * Month - the time period you will be paying your affiliate his or her commission.  Scroll down for options for
-perpetual payments.
-* Compensation - can be a fixed reward, or a percentage of sales.
+##### Default Plan
 
-![Affiliate Comp](/img/Affiliate-Compensation-Plan12.png)
+By checking this box, this plan will be used as the default plan if no plan code is included when a purchase is created.
 
-### Assigning Affiliates to Comp Tiers
+##### Plan Currency
 
-Now that you have an affiliate tier defined, it will be available for selection when you
-[create a new affiliate](affiliate-management.html).
+This allows you to set the currency of all the payments for this plan, which is useful if you have a multi-national
+affiliate program and wish to compensate affiliates in local amounts.
 
-![Affiliate Comp](/img/New-Affiliate-Compensation-Tier.png)
+### Enter Affiliate Commission Payments
 
-### Pay Your Affiliates
+The next step is to add commission payments to the plan.  LeadDyno offers very flexible payment configuration
 
-Click the **Pay Affiliates** option located under the Affiliates menu to issue payments to your affiliates.
+![Affiliate Comp](/img/add_affiliate_commission_payment.png)
 
-![Affiliate Comp](/img/Pay-Affiliates-PayPal-Menu.png)
+#### Payment Options
 
-Select the month you want to issue affiliate payments for, and if applicable, enter a minimum payment amount.  Then
-click **Get Commissions**.
+##### Payment Type
 
-![Affiliate Comp](/img/Affiliate-Commissions-Payment-Report.png)
+LeadDyno commission payments can either be a fixed amount or a percentage of sale.  Note that if they are percentage
+of sale, you **must** include a purchase amount when you create purchases in LeadDyno.
 
-Click the **Pay via PayPal** button on the right side to review and issue payment for each affiliate.
+##### Amount
+
+Enter either a fixed amount or a percentage amount.
+
+##### Payment Is Made (Payment Scheduling)
+
+LeadDyno allows you to schedule affiliate payments in the future, so that you can wait to see if a purchase is valid
+or is cancelled before you pay out the commission payment.  We typically recommend at least a one month delay, although
+some situations call for an immediate payment.
+
+##### Repeats Monthly
+
+LeadDyno allows you to have the commission recur on a monthly basis.  This can be useful for subscription-based services
+that wish to grant some portion of their monthly revenue to an affiliate.  It can also be used to spread a one-time
+payment over various months, so that if a cancellation occurs not all of the commission is paid out.
+
+If you choose to have it repeat monthly you can also enter how many months you'd like it to repeat (or leave it blank
+for a perpetual-until-cancellation payment)
+
+##### Applies To (Advanced)
+
+You may want to offer different commissions to different types of affiliates.  You can create payments that apply to
+specific affiliate types by selecting the affiliate type that a payment applies to.
+
+##### Tier (Advanced)
+
+If you are running a multi-tier affiliate program, you can set up payments to each tier using this drop down.  Pick the
+tier that the given payment applies to.
+
+### Finishing Up
+
+When you are dong, you can click 'Done Creating Payments', and your Affiliate Commission Plan will be complete.
+
+Note that you can edit the plan at any time.
