@@ -6,6 +6,10 @@ nav: guide > customizing-your-affiliate-homepage
 
 ## Customizing Your Affiliate Home Page
 
+Your **Affiliate Home Page** is the home page for your LeadDyno-powered affiliate program.  You can find a link
+to it on your account page [here](https://app.leaddyno.com/settings/account) and it will look something like `http://youraccountname.leaddyno.com`
+.
+
 You can customize the entire look, feel, and content of your **Affiliate Home Page** on the
 [Configure Affiliate Website](https://app.leaddyno.com/content/website_customization) page within
 LeadDyno.
