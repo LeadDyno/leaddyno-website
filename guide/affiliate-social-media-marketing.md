@@ -4,53 +4,38 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > social-content
 ---
 
-## Social Content
+## Core Affiliate Social Content
 
-### Affiliate Social Media Marketing
+On the affiliate dashboard, in addition to the the affiliates affiliate link, there are quick-share links that allow
+your affiliates to easily broadcast your product information:
 
-How do you keep your affiliates engaged, actively promoting your product month-after-month and year-after-year?
-*Video Demo*: [Affiliate & Referral Marketing via Social Media with LeadDyno](http://youtu.be/of8mBro6YYA)
+![social-sharing-buttons](/img/social-sharing-buttons.png)
 
-<div>
-	<iframe width="640" height="360" src="http://www.youtube.com/embed/of8mBro6YYA?feature=player_embedded" frameborder="0">
-	</iframe>
-</div>
+You can configure the content of each of these buttons in the 'Edit Core Social Content' section of LeadDyno:
 
-Unique content from you – such as product announcements and editorials – greatly help affiliates reach out to their
-audiences, readers, and followers with unique and valuable content.
-
-Research shows that your affiliates are far more likely to promote your product if you provide specific editorial copy
-for them to repurpose.
-
-Our **Social Content** portal provides you with a one stop shop for posting exactly this type of email content,
-articles, and social media copy ready for immediate affiliate broadcast via Email, Twitter, Facebook, LinkedIn, and
-Google Plus.
+![core-social-content](/img/core-social-content.png)
 
 
-### Setting Up Your Social Content
+### Editing Content
 
-To write your core social content, click the **Social Content** link in the left-hand navigation bar.
+When you create content for email, Twitter, LinkedIn and Facebook, you can simply design it with links back to your
+site.  LeadDyno will **automatically** detect links to your site and specialize them for each affiliate.  So, for
+example, you might have email content like this
 
-![social_content_tab](/img/social_content_tab_ug3.png)
+    Hi There,
 
+    I wanted to tell you about a great product I've found.  It's called weebler, and it's amazing.
 
-Here's where you'll write the promotional copy that your affiliates can send out with a single click via their
-**Affiliate Dashboard**.
+    Check it out!
 
-Enter your initial promotional copy for your affiliates for use via Email, Twitter, Facebook, and/or LinkedIn, and
-click the **Update** button in the upper-right corner to save it.
+      http://www.weebler.com
 
-### View From the Affiliate Dashboard
+    I love weebler!
 
-Here's the view from your affiliates' vantage point, via their **Affiliate Dashboard**.
-With a single click, they can share their affiliate link - along with your promotional copy - with their entire
-professional and social network via Email, Twitter, Facebook, LinkedIn, and Google Plus.
+LeadDyno will take the link `http://www.weebler.com` in that email and append the affiliate's tracking code to it when they click the 'Email'
+button on their dashboard.
 
-![affililate_dashboard_online_contact_links](/img/affililate_dashboard_online_contact_links.png)
-
-### Email Promotion Example
-
-![core_email_content](/img/core_email_content_ug3.png)
+### Email Example
 
 Your marketing or content manager can quickly create predefined email templates for your affiliates. You write the copy,
 or pull it from existing materials, and it’ll instantly become available to your affiliates.
@@ -63,7 +48,7 @@ To send an email like this, your affiliate will simply click the **Email** butto
 this pre-written email – which includes their unique referral link – will be pulled up in their email client. The email
 can be sent as-is, or edited prior to sending.
 
-### Twitter Promotion Example
+### Twitter Example
 
 ![core_tweet](/img/core_tweet_ug3.png)
 
@@ -73,7 +58,7 @@ Tweeting.
 
 ![leaddyno_tweet](/img/leaddyno_tweet_ug3.jpg)
 
-### Facebook Promotion Example
+### Facebook Example
 
 ![core_facebook_post](/img/core_facebook_post_ug3.png)
 
@@ -82,7 +67,10 @@ app. You can use more than 140 characters in a Facebook post.
 
 ![leaddyno_facebook](/img/leaddyno_facebook_ug3.jpg)
 
-### LinkedIn Promotion Example
+Note that enabling Facebook posting requires that you get a Facebook Application ID.  This is not a trivial process
+but we have documented the steps to do so **[here](http://www.leaddyno.com/blog/2013/05/30/getting-a-facebook-id.html)**
+
+### LinkedIn Example
 
 ![core_linkedin_content](/img/core_linkedin_content_ug3.png)
 
@@ -92,3 +80,7 @@ requirement.
 
 ![leaddyno_linkedin](/img/leaddyno_linkedin_ug3.jpg)
 
+### Google+
+
+Google Plus does not require any configuration because you cannot pass content through to it.  Affiliates will, however
+be able to post a link back to your site on Google+.
