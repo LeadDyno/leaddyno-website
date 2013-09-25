@@ -4,43 +4,59 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > affiliate-email
 ---
 
-## Affiliate Email Follow Up
+## Automated Affiliate Emails
 
-Send a customized welcome email to new affiliates as they come onboard. Also, configure a weekly progress email that is
-sent automatically to update your affiliates on their leads and sales, keeping them actively engaged in the promotion of
-your product.
+LeadDyno is designed to automate your affiliate program as much as possible, and one of the best tools for doing so
+is email.  LeadDyno allows you to send emails to affiliates on various events to provide them information as well as
+keep them engaged:
 
-### Set Up Affiliate Follow Up Emails
+* When an affiliate is created or signs up
+* When a lead signs up from an affiliate
+* When a purchase occurs from an affiliate's lead
+* A weekly summary email of statistics
 
-Click the [**Email Setup**](https://app.leaddyno.com/affiliate_emails) option located under the Affiliates menu to
-create your welcome and weekly emails for affiliates.
+These emails will keep your affiliates actively engaged, driving more traffic and broadcasting your marketing message
+more effectively, with less effort on your part.
 
-![affiliate_marketing_email_template](/img/affiliate_marketing_email_template_ug4.png)
+### Configuring Emails
 
-### Affiliate Welcome Email Setup
+Click the [**Automated Affiliate Emails**](https://app.leaddyno.com/affiliate_emails) sub-menue located under the
+Affiliate Contene menu to see all the supported affiliate emails
 
-Use the [**Affiliate Welcome Email Setup**](https://app.leaddyno.com/affiliate_emails) to write your welcome email for
-new affiliates - this will be delivered to them automatically when they sign up for your affiliate program.
+![automated-affiliate-emails](/img/automated-affiliate-emails.png)
 
-Use the dynamic content variables listed above the email editor to include their affiliate link, as well as the link to
-their [**Affiliate Dashboard**](/guide/affiliate-dashboard.html), where they can view their progress in
-real-time.
+You can edit and enable or disable each email by clicking on the **Edit** button:
 
-We have a successful template included in this section to help get you started.
+![automated-affiliate-emails-detail](/img/automated-affiliate-emails-detail.png)
 
-![affiliate_marketing_welcome_email](/img/affiliate_marketing_welcome_email_ug4.png)
+When editing an email, you can enable or disable the email, set the From email address and change the subject or body:
 
-### Affiliate Weekly Email Setup
+![automated-affiliate-emails-edit](/img/automated-affiliate-emails-edit.png)
 
-The [**Affiliate Weekly Email Setup**](https://app.leaddyno.com/affiliate_emails) is located under the
-**Welcome Email Setup**.
+Each email has some template variables available in it that allows you to specialize the email for affiliates.  You can
+see the available variables by clicking the plus-icon next to the **Email Template Variables** label.
 
-Use the dynamic content variables to show your affiliates their statistics for the past week. You can also use these
-variables to remind them of their affiliate link, and where they can access their
-[**Affiliate Dashboard**](/guide/affiliate-dashboard.html) for this information in real-time.
+### Affiliate Email Details
 
-We have a successful template included in this section to help get you started.
+Below is an explanation of each automated affiliate email LeadDyno can send.
 
-![affiliate_marketing_weekly_email](/img/affiliate_marketing_weekly_email_ug4.png)
+#### On Affiliate Signup
+
+This email is sent when an affiliate first signs up and typically includes their affiliate link as well as a
+single-signon link that they can use to log into their affiliate dashboard with.
+
+#### Weekly Status
+
+This email is sent weekly to affiliates and includes statistics on their affiliate activity
+
+#### On Affiliate Lead
+
+This email will be sent when a lead from an affiliate signs up.  Note that you can include the leads email if you
+choose.
+
+#### On Affiliate Purchase
+
+This email will be sent when a lead from an affiliate makes a purchase.  As with lead signup, you can include the leads
+email if you choose.
 
 
