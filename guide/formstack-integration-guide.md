@@ -4,7 +4,7 @@ title: "Affiliate Tracking Software & Online Marketing System: LeadDyno"
 nav: guide > formstack-integration-guide
 ---
 
-## formstack Integration Guide
+## Formstack Integration Guide
 
 ### Introduction
 
