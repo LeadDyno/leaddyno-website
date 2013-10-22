@@ -20,7 +20,7 @@ Below is an overview of what LeadDyno can do for you.
    visitors](installation.html#visitor_tracking) to your site.
 2. Add a bit more Javascript to [capture customer emails](installation.html#lead_tracking) as well.
 3. Finally, depending on how your online business works, you will need to implement
-   [purchase tracking](http://localhost:4000/guide/installation.html#purchase_tracking)
+   [purchase tracking](installation.html#purchase_tracking)
 
 Typically this can all be done quickly by your web developers.
 
