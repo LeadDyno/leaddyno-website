@@ -82,7 +82,7 @@ the **E-Commerce Services** Tab of the Integrations section:
 
 ### Purchase Synchronization
 
-LeadDyno will sync with Etsy purchase information every two hours, so you may not see purchase information immediately.
+LeadDyno will sync with Etsy purchase information every four hours, so you may not see purchase information immediately.
 
 You can sync immediately by clicking the **Sync Etsy Purchases Now** button in your Etsy configuration:
 
