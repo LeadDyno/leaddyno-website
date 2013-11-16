@@ -8,7 +8,7 @@ set :secret_access_key, ENV['AWS_SECRET_KEY']
 
 set :s3_endpoint, 's3-us-west-1.amazonaws.com'
 
-before 'deploy' do
-  run_locally "lessc css/site.less css/site.css"
-  run_locally "jekyll build"
-end
+#before 'deploy' do
+#  run_locally "jekyll build"
+#  system "lessc css/site.less > css/site.css"
+#end

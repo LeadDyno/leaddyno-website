@@ -8,15 +8,13 @@ nav: guide > bigcommerce-integration-guide
 
 ### Introduction
 
-LeadDyno offers a One-click integration with Bigcommerce, making it incredibly easy to get an affiliate program going for
+LeadDyno offers an integration with Bigcommerce, making it incredibly easy to get an affiliate program going for
 your Bigcommerce store. After completing this guide, your LeadDyno account will be setup so that you will have complete
 visibility into your store's visitors, leads and purchases, including crediting affiliates for traffic in which they
 send to your store.
 
 The Bigcommerce integration also synchronizes custom **Affiliate Codes** you assign to affiliates as Bigcommerce coupons.
-This allows affiliates to pass around their affiliate code via offline means and still get credit for those sales. You
-have full control over the coupon settings such as the dollar or percent discount and minimum purchase required. You
-also have full control to make changes to individual affiliate coupons via the Bigcommerce control panel.
+This allows affiliates to pass around their affiliate code via offline means and still get credit for those sales.
 
 This guide consists of several parts:
 
@@ -24,7 +22,7 @@ This guide consists of several parts:
 * Configuring your Bigcommerce store so that LeadDyno can integrate with it
 * Configuring your LeadDyno account to connect to your Bigcommerce store
 
-## Enable LeadDyno tracking in your Bigcommerce store ##
+### Enable LeadDyno tracking in your Bigcommerce store ###
 
 The LeadDyno tracking integration makes use of the built in 'Google Analytics' tracking setting of Bigcommerce. To
 enable it, select the **Analytics** menu option from within the **Apps** menu.
@@ -58,7 +56,7 @@ Replace the word **YOUR_PUBLIC_KEY** with your **public** API key found on the [
 After clicking Save, your Bigcommerce store will now have the tracking code on every page.
 
 
-## Configure Bigcommerce API User ##
+### Configure Bigcommerce API User ###
 
 LeadDyno requires you to create a user within the Bigcommerce system that has API access and provide the API details
 to LeadDyno. This way LeadDyno can periodically watch for new sales in your Bigcommerce store and record those as
@@ -70,7 +68,7 @@ To create a new user in your Bigcommerce store, select the **Users** option in t
 ![Bigcommerce Users](/img/bc_guide_create_user.png)
 
 
-Fill in a Username, password and email address for the new user. We suggest using the username **apiuser**. The password
+Fill in a Username, Password and Email address for the new user. We suggest using the username **apiuser**. The password
 and email can be anything, LeadDyno will not need these settings, just the username. Make sure the **User Role** for the new
 user is a **Store Administrator** so that the new user will have access to orders and coupons, which LeadDyno needs.
 
@@ -85,7 +83,7 @@ settings, which is detailed in the next section. Make sure to click Save to save
 
 
 
-## Configure LeadDyno to Bigcommerce Integration ##
+### Configure LeadDyno to Bigcommerce Integration ###
 
 From within your [LeadDyno Dashboard](https://app.leaddyno.com), select the **Settings** menu from the left-hand naviation
 and click **Manage Integrations**, and then choose **E-Commerce Services** at the top.
@@ -122,6 +120,6 @@ purchase, you can manually start the job on this page.
 </div>
 
 
-## Conclusion
+### Conclusion ###
 
 At this point your Bigcommerce shop will be fully integrated with LeadDyno. Good luck selling!
